@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Math</class>
+ <widget class="QMainWindow" name="Math">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>446</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>446</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>LaTeX Office Math</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0" colspan="2">
+     <widget class="QGroupBox" name="groupBoxCode">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Code</string>
+      </property>
+      <widget class="QPlainTextEdit" name="plainTextEdit">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>751</width>
+         <height>79</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QGroupBox" name="groupBoxOptions">
+      <property name="title">
+       <string>Options</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="4" column="0" colspan="4">
+        <widget class="QPushButton" name="pushButtonClose">
+         <property name="text">
+          <string>Close</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QPushButton" name="pushButtonExportPNG">
+         <property name="text">
+          <string>PNG</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Import from</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1" colspan="3">
+        <widget class="QPushButton" name="pushButtonImportLOM">
+         <property name="text">
+          <string>LOM</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QPushButton" name="pushButtonExportLOM">
+         <property name="text">
+          <string>LOM</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="labelExport">
+         <property name="text">
+          <string>Export to</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QPushButton" name="pushButtonExportJPG">
+         <property name="text">
+          <string>JPG</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QGroupBox" name="groupPreview">
+      <property name="title">
+       <string>Preview</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QWebView" name="previewView">
+         <property name="maximumSize">
+          <size>
+           <width>450</width>
+           <height>95</height>
+          </size>
+         </property>
+         <property name="url">
+          <url>
+           <string>about:blank</string>
+          </url>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>90</height>
+       </size>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhDialableCharactersOnly</set>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tabAlgebra_2">
+       <attribute name="title">
+        <string>Algebra</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButtonAlg1_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/alg-eq01.png</normaloff>:/images/math/tabbar/alg-eq01.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonAlg2_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/alg-eq02.png</normaloff>:/images/math/tabbar/alg-eq02.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonAlg3_2">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/alg-eq03.png</normaloff>:/images/math/tabbar/alg-eq03.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonAlg4_2">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/alg-eq04.png</normaloff>:/images/math/tabbar/alg-eq04.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonAlg5_2">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/alg-eq05.png</normaloff>:/images/math/tabbar/alg-eq05.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonAlg6_2">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/alg-eq06.png</normaloff>:/images/math/tabbar/alg-eq06.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonAlg7_2">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>0</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/alg-eq07.png</normaloff>:/images/math/tabbar/alg-eq07.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>155</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tabDerivs_2">
+       <attribute name="title">
+        <string>Derivs</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButtonDer1_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/der-eq01.png</normaloff>:/images/math/tabbar/der-eq01.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonDer2_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/der-eq02.png</normaloff>:/images/math/tabbar/der-eq02.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonDer3_2">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/der-eq03.png</normaloff>:/images/math/tabbar/der-eq03.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonDer4_2">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/der-eq04.png</normaloff>:/images/math/tabbar/der-eq04.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonDer5_2">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/der-eq05.png</normaloff>:/images/math/tabbar/der-eq05.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonDer6_2">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/der-eq06.png</normaloff>:/images/math/tabbar/der-eq06.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tabStats_2">
+       <attribute name="title">
+        <string>Stats</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButtonSta1_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/sta-eq01.png</normaloff>:/images/math/tabbar/sta-eq01.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonSta2_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/sta-eq02.png</normaloff>:/images/math/tabbar/sta-eq02.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonSta3_2">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/sta-eq03.png</normaloff>:/images/math/tabbar/sta-eq03.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonSta4_2">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/sta-eq04.png</normaloff>:/images/math/tabbar/sta-eq04.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonSta5_2">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/sta-eq05.png</normaloff>:/images/math/tabbar/sta-eq05.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonSta6_2">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/sta-eq06.png</normaloff>:/images/math/tabbar/sta-eq06.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonSta7_2">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/sta-eq07.png</normaloff>:/images/math/tabbar/sta-eq07.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tabMatrix_2">
+       <attribute name="title">
+        <string>Matrix</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButtonMat1_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/mat-eq01.png</normaloff>:/images/math/tabbar/mat-eq01.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonMat2_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/mat-eq02.png</normaloff>:/images/math/tabbar/mat-eq02.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonMat3_2">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/mat-eq03.png</normaloff>:/images/math/tabbar/mat-eq03.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonMat4_2">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/mat-eq04.png</normaloff>:/images/math/tabbar/mat-eq04.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonMat5_3">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/mat-eq05.png</normaloff>:/images/math/tabbar/mat-eq05.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>85</width>
+          <height>128</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonMat6_3">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/mat-eq06.png</normaloff>:/images/math/tabbar/mat-eq06.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>75</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tabSets_2">
+       <attribute name="title">
+        <string>Sets</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButtonSet1_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/set-eq01.png</normaloff>:/images/math/tabbar/set-eq01.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonSet2_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/set-eq02.png</normaloff>:/images/math/tabbar/set-eq02.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tabTrigonometry_2">
+       <attribute name="title">
+        <string>Trigonometry</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButtonTri1_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/tri-eq01.png</normaloff>:/images/math/tabbar/tri-eq01.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonTri2_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/tri-eq02.png</normaloff>:/images/math/tabbar/tri-eq02.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonTri3_2">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/tri-eq03.png</normaloff>:/images/math/tabbar/tri-eq03.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonTri4_2">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/tri-eq04.png</normaloff>:/images/math/tabbar/tri-eq04.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonTri4_3">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/tri-eq05.png</normaloff>:/images/math/tabbar/tri-eq05.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>85</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonTri4_4">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/tri-eq06.png</normaloff>:/images/math/tabbar/tri-eq06.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>87</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tabGeometry_2">
+       <attribute name="title">
+        <string>Geometry</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButtonGeo1_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/geo-eq01.png</normaloff>:/images/math/tabbar/geo-eq01.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonGeo2_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/geo-eq02.png</normaloff>:/images/math/tabbar/geo-eq02.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonGeo3_2">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/geo-eq03.png</normaloff>:/images/math/tabbar/geo-eq03.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonGeo4_2">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/geo-eq04.png</normaloff>:/images/math/tabbar/geo-eq04.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tabPhysics_2">
+       <attribute name="title">
+        <string>Physics</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButtonPhy1_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>100</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/phy-eq01.png</normaloff>:/images/math/tabbar/phy-eq01.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonPhy2_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>0</y>
+          <width>150</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/phy-eq02.png</normaloff>:/images/math/tabbar/phy-eq02.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonPhy3_2">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>0</y>
+          <width>150</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/phy-eq03.png</normaloff>:/images/math/tabbar/phy-eq03.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonPhy4_2">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>0</y>
+          <width>150</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/images/math/tabbar/phy-eq04.png</normaloff>:/images/math/tabbar/phy-eq04.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>256</width>
+          <height>256</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionSymbol"/>
+   <addaction name="actionLabel"/>
+   <addaction name="separator"/>
+   <addaction name="actionAngle"/>
+   <addaction name="actionExp"/>
+   <addaction name="actionFraction"/>
+   <addaction name="actionIntegral"/>
+   <addaction name="actionIntegral_Symbol"/>
+   <addaction name="actionSquare_Root"/>
+   <addaction name="actionN_Square_Root"/>
+   <addaction name="actionSubelement"/>
+   <addaction name="actionSumatory"/>
+   <addaction name="separator"/>
+   <addaction name="actionLaTeX_Office_Math_Help"/>
+  </widget>
+  <action name="actionSymbol">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/symbol.png</normaloff>:/images/menu/symbol.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Symbol...</string>
+   </property>
+  </action>
+  <action name="actionLabel">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/math/toolbar/label-edit.png</normaloff>:/images/math/toolbar/label-edit.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Label</string>
+   </property>
+  </action>
+  <action name="actionAngle">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/math/toolbar/angle.png</normaloff>:/images/math/toolbar/angle.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Angle</string>
+   </property>
+  </action>
+  <action name="actionExp">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/math/toolbar/exp.png</normaloff>:/images/math/toolbar/exp.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Exp</string>
+   </property>
+  </action>
+  <action name="actionFraction">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/math/toolbar/frac.png</normaloff>:/images/math/toolbar/frac.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Fraction</string>
+   </property>
+  </action>
+  <action name="actionIntegral">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/math/toolbar/integ.png</normaloff>:/images/math/toolbar/integ.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Integral</string>
+   </property>
+  </action>
+  <action name="actionIntegral_Symbol">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/math/toolbar/integ2.png</normaloff>:/images/math/toolbar/integ2.png</iconset>
+   </property>
+   <property name="text">
+    <string>I&amp;ntegral Symbol</string>
+   </property>
+  </action>
+  <action name="actionSquare_Root">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/math/toolbar/sq.png</normaloff>:/images/math/toolbar/sq.png</iconset>
+   </property>
+   <property name="text">
+    <string>S&amp;quare Root</string>
+   </property>
+  </action>
+  <action name="actionN_Square_Root">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/math/toolbar/sq2.png</normaloff>:/images/math/toolbar/sq2.png</iconset>
+   </property>
+   <property name="text">
+    <string>N-Sq&amp;uare Root</string>
+   </property>
+  </action>
+  <action name="actionSubelement">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/math/toolbar/sub.png</normaloff>:/images/math/toolbar/sub.png</iconset>
+   </property>
+   <property name="text">
+    <string>Su&amp;belement</string>
+   </property>
+  </action>
+  <action name="actionSumatory">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/math/toolbar/sum.png</normaloff>:/images/math/toolbar/sum.png</iconset>
+   </property>
+   <property name="text">
+    <string>Su&amp;matory</string>
+   </property>
+  </action>
+  <action name="actionLaTeX_Office_Math_Help">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/help.png</normaloff>:/images/menu/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>LaTeX Office Math Help</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+'</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKitWidgets/QWebView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
