@@ -1,0 +1,11 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'LaTeX Office Remote' do
+pod 'CocoaAsyncSocket'
+end
+
+target 'LaTeX Office RemoteTests' do
+pod 'CocoaAsyncSocket'
+end
+

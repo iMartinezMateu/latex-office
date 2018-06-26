@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DF23CFC9AED015896D8451491D9905 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7312E0D71A34AB2777B8CF5688ADB02D /* Security.framework */; };
+		22F4E0AD46280DCDB376DF3D79E84AB5 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1219C87D86819AD4A1CFFA39DBD5DF85 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2DB9659AF487550A6F944DD291F714C0 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EA6272473934ABE8B28F7B26B5BB90 /* CocoaAsyncSocket-dummy.m */; };
+		639DC2EB80EBCC838F8096161FEB7A1E /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B75AAB149DF58A130EE762C6AB79D50E /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		71E9EF45C11EC4265E36453C21362A8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB16A758E1545A05F6460C233F2A841 /* Foundation.framework */; };
+		723B036A79CE3600BE397C7B37926367 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CA9029FD56E01CABE42A015364DB93 /* CFNetwork.framework */; };
+		7DD4D8A987B2531D686C8B27531D16F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB16A758E1545A05F6460C233F2A841 /* Foundation.framework */; };
+		87A571BFB3ED874F1A5B8AA6F1F171C8 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDF93CFA4ECC6639919FD15F01A78F5 /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		936B1BD2E57101AC5A907C236585D3E7 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D78049BAFE65EC99A414EB87912F82B5 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		964F2E4AA93F2675A7A0F7CA6FBD364C /* AsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC67AA363923D01B9D4050E9A64BD8B /* AsyncUdpSocket.h */; };
+		B4709DDDEAB08A6A47AC7EAD2D6BED87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB16A758E1545A05F6460C233F2A841 /* Foundation.framework */; };
+		B89E0DF8A67C3D5B168D84F93F45DAC7 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B55E1C024B2828CC92DA59B94F20859D /* AsyncSocket.h */; };
+		E26AC9ECF57BB2A9AD921413AC23FD27 /* Pods-LaTeX Office Remote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 657517AFD8BF609E9A35151F5C5D91A7 /* Pods-LaTeX Office Remote-dummy.m */; };
+		F1A820162D021B2EEC8773338247F1F0 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DEC5B09A98384708ECC9F85CA9C596C /* GCDAsyncUdpSocket.h */; };
+		FA8C74BBE2BD884B47642215C09C1A74 /* Pods-LaTeX Office RemoteTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CB6BA351F377FBE629AF58CDD7F9B9 /* Pods-LaTeX Office RemoteTests-dummy.m */; };
+		FF6F1DD513917A560F04BCA536F9099D /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE9A5A97079609F1FF4DC890D6A5483 /* GCDAsyncSocket.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		956CDB47E35DBCC5D627C2D4257E56BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E01AB06933244BBDE9EC210DEDF2431A;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		C5BB824745D624355EF56AE954986BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E01AB06933244BBDE9EC210DEDF2431A;
+			remoteInfo = CocoaAsyncSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1219C87D86819AD4A1CFFA39DBD5DF85 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		1BC67AA363923D01B9D4050E9A64BD8B /* AsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncUdpSocket.h; path = RunLoop/AsyncUdpSocket.h; sourceTree = "<group>"; };
+		2C332B8A1B8E6DEE00C21F45 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		2C7804920ED3A6507252C8B77ACB1AB4 /* Pods-LaTeX Office Remote-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LaTeX Office Remote-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DB05BA5E5F7106B89EE28B4F3B76BBD /* Pods-LaTeX Office Remote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaTeX Office Remote.release.xcconfig"; sourceTree = "<group>"; };
+		2E5417E983E67DC382367E319F990490 /* Pods-LaTeX Office RemoteTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaTeX Office RemoteTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DEC5B09A98384708ECC9F85CA9C596C /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		4E129BE2DDE5618D0B2E65CBE367591C /* Pods-LaTeX Office Remote-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LaTeX Office Remote-resources.sh"; sourceTree = "<group>"; };
+		4E31C02273C0CA4294342F0C87DD1544 /* Pods-LaTeX Office RemoteTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LaTeX Office RemoteTests-resources.sh"; sourceTree = "<group>"; };
+		5175009D604B66E64E44B05E6CA1526F /* Pods-LaTeX Office Remote-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaTeX Office Remote-acknowledgements.plist"; sourceTree = "<group>"; };
+		57E6235D87CEE93B07AD96A68B1C3F61 /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaAsyncSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A533ED165E0B2CDF112C133747D38C1 /* Pods-LaTeX Office RemoteTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LaTeX Office RemoteTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FE9A5A97079609F1FF4DC890D6A5483 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		657517AFD8BF609E9A35151F5C5D91A7 /* Pods-LaTeX Office Remote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LaTeX Office Remote-dummy.m"; sourceTree = "<group>"; };
+		6B6D8B03F103739874A88B405D8D2DA9 /* Pods-LaTeX Office Remote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaTeX Office Remote.debug.xcconfig"; sourceTree = "<group>"; };
+		6D2297A3DD9A77E74B2B7557BEDC7356 /* Pods-LaTeX Office RemoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaTeX Office RemoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		7312E0D71A34AB2777B8CF5688ADB02D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		75CB6BA351F377FBE629AF58CDD7F9B9 /* Pods-LaTeX Office RemoteTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LaTeX Office RemoteTests-dummy.m"; sourceTree = "<group>"; };
+		8122D62460D6A06CC931ABBE2FEF8A25 /* CocoaAsyncSocket-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CocoaAsyncSocket-Private.xcconfig"; sourceTree = "<group>"; };
+		ACB16A758E1545A05F6460C233F2A841 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ADAC597B7E31E1AAA5BBEB2BA1D7D40D /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		B4527EA8D18F33B30B769D6A91BA5A13 /* Pods-LaTeX Office RemoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaTeX Office RemoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B55E1C024B2828CC92DA59B94F20859D /* AsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = RunLoop/AsyncSocket.h; sourceTree = "<group>"; };
+		B75AAB149DF58A130EE762C6AB79D50E /* AsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = RunLoop/AsyncSocket.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C30B8E653DAA5D28138438099BF56C44 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		CCDF93CFA4ECC6639919FD15F01A78F5 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AsyncUdpSocket.m; path = RunLoop/AsyncUdpSocket.m; sourceTree = "<group>"; };
+		D78049BAFE65EC99A414EB87912F82B5 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		E08222DEAB96CEE71BC5F7BA17A3329C /* libPods-LaTeX Office Remote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LaTeX Office Remote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EA6272473934ABE8B28F7B26B5BB90 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		E9AF4643178BC75C39BA5D5A0A956DA6 /* libPods-LaTeX Office RemoteTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LaTeX Office RemoteTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CA9029FD56E01CABE42A015364DB93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24BD6AC2E9E432CB3B786F61A9DB6ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E9EF45C11EC4265E36453C21362A8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E402B404ADFBE075E4A6EFEA49C7E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4709DDDEAB08A6A47AC7EAD2D6BED87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549C6A2AE15F8187B9CA0A85964A81C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723B036A79CE3600BE397C7B37926367 /* CFNetwork.framework in Frameworks */,
+				7DD4D8A987B2531D686C8B27531D16F3 /* Foundation.framework in Frameworks */,
+				00DF23CFC9AED015896D8451491D9905 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECD260DD19B725A7615428234008C004 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22D39A76FD115878B4E28042C6A8B48B /* Pods-LaTeX Office Remote */ = {
+			isa = PBXGroup;
+			children = (
+				2C7804920ED3A6507252C8B77ACB1AB4 /* Pods-LaTeX Office Remote-acknowledgements.markdown */,
+				5175009D604B66E64E44B05E6CA1526F /* Pods-LaTeX Office Remote-acknowledgements.plist */,
+				657517AFD8BF609E9A35151F5C5D91A7 /* Pods-LaTeX Office Remote-dummy.m */,
+				4E129BE2DDE5618D0B2E65CBE367591C /* Pods-LaTeX Office Remote-resources.sh */,
+				6B6D8B03F103739874A88B405D8D2DA9 /* Pods-LaTeX Office Remote.debug.xcconfig */,
+				2DB05BA5E5F7106B89EE28B4F3B76BBD /* Pods-LaTeX Office Remote.release.xcconfig */,
+			);
+			name = "Pods-LaTeX Office Remote";
+			path = "Target Support Files/Pods-LaTeX Office Remote";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				2C332B8A1B8E6DEE00C21F45 /* Entitlements.plist */,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				85FF29C2A0EC49684B49CFEB17AF75EB /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				E49AF7503F276FEC4E8511F7502A4293 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85FF29C2A0EC49684B49CFEB17AF75EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2A0D5F91B072E850845206341E8F8F3 /* CocoaAsyncSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8AAEF4543AD62337E36ABF3F501CC794 /* Pods-LaTeX Office RemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A533ED165E0B2CDF112C133747D38C1 /* Pods-LaTeX Office RemoteTests-acknowledgements.markdown */,
+				2E5417E983E67DC382367E319F990490 /* Pods-LaTeX Office RemoteTests-acknowledgements.plist */,
+				75CB6BA351F377FBE629AF58CDD7F9B9 /* Pods-LaTeX Office RemoteTests-dummy.m */,
+				4E31C02273C0CA4294342F0C87DD1544 /* Pods-LaTeX Office RemoteTests-resources.sh */,
+				B4527EA8D18F33B30B769D6A91BA5A13 /* Pods-LaTeX Office RemoteTests.debug.xcconfig */,
+				6D2297A3DD9A77E74B2B7557BEDC7356 /* Pods-LaTeX Office RemoteTests.release.xcconfig */,
+			);
+			name = "Pods-LaTeX Office RemoteTests";
+			path = "Target Support Files/Pods-LaTeX Office RemoteTests";
+			sourceTree = "<group>";
+		};
+		C2A0D5F91B072E850845206341E8F8F3 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				B55E1C024B2828CC92DA59B94F20859D /* AsyncSocket.h */,
+				B75AAB149DF58A130EE762C6AB79D50E /* AsyncSocket.m */,
+				1BC67AA363923D01B9D4050E9A64BD8B /* AsyncUdpSocket.h */,
+				CCDF93CFA4ECC6639919FD15F01A78F5 /* AsyncUdpSocket.m */,
+				5FE9A5A97079609F1FF4DC890D6A5483 /* GCDAsyncSocket.h */,
+				1219C87D86819AD4A1CFFA39DBD5DF85 /* GCDAsyncSocket.m */,
+				3DEC5B09A98384708ECC9F85CA9C596C /* GCDAsyncUdpSocket.h */,
+				D78049BAFE65EC99A414EB87912F82B5 /* GCDAsyncUdpSocket.m */,
+				D9262DE7AA396E700956D78AC5B736E9 /* Support Files */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57E6235D87CEE93B07AD96A68B1C3F61 /* libCocoaAsyncSocket.a */,
+				E08222DEAB96CEE71BC5F7BA17A3329C /* libPods-LaTeX Office Remote.a */,
+				E9AF4643178BC75C39BA5D5A0A956DA6 /* libPods-LaTeX Office RemoteTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9262DE7AA396E700956D78AC5B736E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC597B7E31E1AAA5BBEB2BA1D7D40D /* CocoaAsyncSocket.xcconfig */,
+				8122D62460D6A06CC931ABBE2FEF8A25 /* CocoaAsyncSocket-Private.xcconfig */,
+				E2EA6272473934ABE8B28F7B26B5BB90 /* CocoaAsyncSocket-dummy.m */,
+				C30B8E653DAA5D28138438099BF56C44 /* CocoaAsyncSocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		E49AF7503F276FEC4E8511F7502A4293 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22D39A76FD115878B4E28042C6A8B48B /* Pods-LaTeX Office Remote */,
+				8AAEF4543AD62337E36ABF3F501CC794 /* Pods-LaTeX Office RemoteTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ECD260DD19B725A7615428234008C004 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F0CA9029FD56E01CABE42A015364DB93 /* CFNetwork.framework */,
+				ACB16A758E1545A05F6460C233F2A841 /* Foundation.framework */,
+				7312E0D71A34AB2777B8CF5688ADB02D /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56768617604BCD2904CAC7BAB650D019 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89E0DF8A67C3D5B168D84F93F45DAC7 /* AsyncSocket.h in Headers */,
+				964F2E4AA93F2675A7A0F7CA6FBD364C /* AsyncUdpSocket.h in Headers */,
+				FF6F1DD513917A560F04BCA536F9099D /* GCDAsyncSocket.h in Headers */,
+				F1A820162D021B2EEC8773338247F1F0 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3615DD9D37CC0D2C2C69098F9CD10BFA /* Pods-LaTeX Office RemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83873FBF49401329371823F7A24A41A9 /* Build configuration list for PBXNativeTarget "Pods-LaTeX Office RemoteTests" */;
+			buildPhases = (
+				E450DE60ED315A51ACC50BD458C29C34 /* Sources */,
+				24BD6AC2E9E432CB3B786F61A9DB6ACA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48D82DDF576E1753A9B43EB810FA9F34 /* PBXTargetDependency */,
+			);
+			name = "Pods-LaTeX Office RemoteTests";
+			productName = "Pods-LaTeX Office RemoteTests";
+			productReference = E9AF4643178BC75C39BA5D5A0A956DA6 /* libPods-LaTeX Office RemoteTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B123ABDC6DF1A2A2F19D70CFDF6FD075 /* Pods-LaTeX Office Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A271EAD1C20907A5EE694BCBA84547 /* Build configuration list for PBXNativeTarget "Pods-LaTeX Office Remote" */;
+			buildPhases = (
+				FFCEDD0BA11795EACCE5859692EC5621 /* Sources */,
+				2E402B404ADFBE075E4A6EFEA49C7E84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61112388DA16623B7EE619686D0E0418 /* PBXTargetDependency */,
+			);
+			name = "Pods-LaTeX Office Remote";
+			productName = "Pods-LaTeX Office Remote";
+			productReference = E08222DEAB96CEE71BC5F7BA17A3329C /* libPods-LaTeX Office Remote.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E01AB06933244BBDE9EC210DEDF2431A /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4F2A621C8F502F968E73C3555BA985 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				4D29E7988837F1E149B3CDB1F0AD75C5 /* Sources */,
+				549C6A2AE15F8187B9CA0A85964A81C8 /* Frameworks */,
+				56768617604BCD2904CAC7BAB650D019 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 57E6235D87CEE93B07AD96A68B1C3F61 /* libCocoaAsyncSocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E01AB06933244BBDE9EC210DEDF2431A /* CocoaAsyncSocket */,
+				B123ABDC6DF1A2A2F19D70CFDF6FD075 /* Pods-LaTeX Office Remote */,
+				3615DD9D37CC0D2C2C69098F9CD10BFA /* Pods-LaTeX Office RemoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D29E7988837F1E149B3CDB1F0AD75C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639DC2EB80EBCC838F8096161FEB7A1E /* AsyncSocket.m in Sources */,
+				87A571BFB3ED874F1A5B8AA6F1F171C8 /* AsyncUdpSocket.m in Sources */,
+				2DB9659AF487550A6F944DD291F714C0 /* CocoaAsyncSocket-dummy.m in Sources */,
+				22F4E0AD46280DCDB376DF3D79E84AB5 /* GCDAsyncSocket.m in Sources */,
+				936B1BD2E57101AC5A907C236585D3E7 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E450DE60ED315A51ACC50BD458C29C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8C74BBE2BD884B47642215C09C1A74 /* Pods-LaTeX Office RemoteTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCEDD0BA11795EACCE5859692EC5621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26AC9ECF57BB2A9AD921413AC23FD27 /* Pods-LaTeX Office Remote-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48D82DDF576E1753A9B43EB810FA9F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = E01AB06933244BBDE9EC210DEDF2431A /* CocoaAsyncSocket */;
+			targetProxy = 956CDB47E35DBCC5D627C2D4257E56BF /* PBXContainerItemProxy */;
+		};
+		61112388DA16623B7EE619686D0E0418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = E01AB06933244BBDE9EC210DEDF2431A /* CocoaAsyncSocket */;
+			targetProxy = C5BB824745D624355EF56AE954986BA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		221D40DA0EBE690503AEA861051E6212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4527EA8D18F33B30B769D6A91BA5A13 /* Pods-LaTeX Office RemoteTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3226BA3FD8830ABDA55D5221D486C1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB05BA5E5F7106B89EE28B4F3B76BBD /* Pods-LaTeX Office Remote.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3B4E54C8A8691E95B6CE6C81ACCBFEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B6D8B03F103739874A88B405D8D2DA9 /* Pods-LaTeX Office Remote.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3CD7537BF520C4532D67A5A713DEE8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8122D62460D6A06CC931ABBE2FEF8A25 /* CocoaAsyncSocket-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		730FA3407970279EAE8F7E0411BBA03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8122D62460D6A06CC931ABBE2FEF8A25 /* CocoaAsyncSocket-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF1F4BA4CF5D480DD3CA0083770BC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2297A3DD9A77E74B2B7557BEDC7356 /* Pods-LaTeX Office RemoteTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A271EAD1C20907A5EE694BCBA84547 /* Build configuration list for PBXNativeTarget "Pods-LaTeX Office Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4E54C8A8691E95B6CE6C81ACCBFEDF /* Debug */,
+				3226BA3FD8830ABDA55D5221D486C1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F4F2A621C8F502F968E73C3555BA985 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD7537BF520C4532D67A5A713DEE8E2 /* Debug */,
+				730FA3407970279EAE8F7E0411BBA03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83873FBF49401329371823F7A24A41A9 /* Build configuration list for PBXNativeTarget "Pods-LaTeX Office RemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221D40DA0EBE690503AEA861051E6212 /* Debug */,
+				CF1F4BA4CF5D480DD3CA0083770BC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
