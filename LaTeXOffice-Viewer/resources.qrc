@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/images/menu">
+        <file alias="background.png">res/img/menu/background.png</file>
+        <file alias="break.png">res/img/menu/break.png</file>
+        <file alias="chart.png">res/img/menu/chart.png</file>
+        <file alias="columns.png">res/img/menu/columns.png</file>
+        <file alias="comment.png">res/img/menu/comment.png</file>
+        <file alias="copy.png">res/img/menu/copy.png</file>
+        <file alias="cut.png">res/img/menu/cut.png</file>
+        <file alias="deleteslide.png">res/img/menu/deleteslide.png</file>
+        <file alias="diagram.png">res/img/menu/diagram.png</file>
+        <file alias="duplicateslide.png">res/img/menu/duplicateslide.png</file>
+        <file alias="fonts.png">res/img/menu/fonts.png</file>
+        <file alias="fullscreen.png">res/img/menu/fullscreen.png</file>
+        <file alias="guide.png">res/img/menu/guide.png</file>
+        <file alias="help.png">res/img/menu/help.png</file>
+        <file alias="link.png">res/img/menu/link.png</file>
+        <file alias="media.png">res/img/menu/media.png</file>
+        <file alias="new.png">res/img/menu/new.png</file>
+        <file alias="newslide.png">res/img/menu/newslide.png</file>
+        <file alias="open.png">res/img/menu/open.png</file>
+        <file alias="paste.png">res/img/menu/paste.png</file>
+        <file alias="picture.png">res/img/menu/picture.png</file>
+        <file alias="preview.png">res/img/menu/preview.png</file>
+        <file alias="print.png">res/img/menu/print.png</file>
+        <file alias="redo.png">res/img/menu/redo.png</file>
+        <file alias="replace.png">res/img/menu/replace.png</file>
+        <file alias="save.png">res/img/menu/save.png</file>
+        <file alias="search.png">res/img/menu/search.png</file>
+        <file alias="slideshow.png">res/img/menu/slideshow.png</file>
+        <file alias="spelling.png">res/img/menu/spelling.png</file>
+        <file alias="symbol.png">res/img/menu/symbol.png</file>
+        <file alias="table.png">res/img/menu/table.png</file>
+        <file alias="undo.png">res/img/menu/undo.png</file>
+        <file alias="pdf.png">res/img/menu/pdf.png</file>
+        <file alias="goal.png">res/img/menu/goal.png</file>
+        <file alias="codeasset.png">res/img/menu/codeasset.png</file>
+    </qresource>
+    <qresource prefix="/languages">
+        <file>qt_es_ES.qm</file>
+        <file>viewer_es_ES.qm</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file alias="icon.icns">icon.icns</file>
+        <file alias="icon.ico">icon.ico</file>
+        <file alias="tex.png">tex.png</file>
+    </qresource>
+    <qresource prefix="/sprites">
+        <file alias="beam.png">res/img/beam/beam.png</file>
+    </qresource>
+    <qresource prefix="/documents">
+        <file alias="Manual.pdf">res/Manual.pdf</file>
+    </qresource>
+</RCC>
