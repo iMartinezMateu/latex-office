@@ -1,0 +1,1508 @@
+<RCC>
+    <qresource prefix="/images/toolbar">
+        <file alias="background.png">res/img/toolbar/background.png</file>
+        <file alias="bold.png">res/img/toolbar/bold.png</file>
+        <file alias="centeralign.png">res/img/toolbar/centeralign.png</file>
+        <file alias="description.png">res/img/toolbar/description.png</file>
+        <file alias="emphatize.png">res/img/toolbar/emphatize.png</file>
+        <file alias="enumerate.png">res/img/toolbar/enumerate.png</file>
+        <file alias="foreground.png">res/img/toolbar/foreground.png</file>
+        <file alias="italic.png">res/img/toolbar/italic.png</file>
+        <file alias="itemize.png">res/img/toolbar/itemize.png</file>
+        <file alias="justify.png">res/img/toolbar/justify.png</file>
+        <file alias="leftalign.png">res/img/toolbar/leftalign.png</file>
+        <file alias="paragraph.png">res/img/toolbar/paragraph.png</file>
+        <file alias="rightalign.png">res/img/toolbar/rightalign.png</file>
+        <file alias="smallcaps.png">res/img/toolbar/smallcaps.png</file>
+        <file alias="strikethrough.png">res/img/toolbar/strikethrough.png</file>
+        <file alias="tex.png">res/img/toolbar/tex.png</file>
+        <file alias="underline.png">res/img/toolbar/underline.png</file>
+        <file alias="footnote.png">res/img/toolbar/footnote.png</file>
+        <file alias="reference.png">res/img/toolbar/reference.png</file>
+        <file alias="equation.png">res/img/toolbar/equation.png</file>
+    </qresource>
+    <qresource prefix="/images/menu">
+        <file alias="background.png">res/img/menu/background.png</file>
+        <file alias="break.png">res/img/menu/break.png</file>
+        <file alias="chart.png">res/img/menu/chart.png</file>
+        <file alias="columns.png">res/img/menu/columns.png</file>
+        <file alias="comment.png">res/img/menu/comment.png</file>
+        <file alias="copy.png">res/img/menu/copy.png</file>
+        <file alias="cut.png">res/img/menu/cut.png</file>
+        <file alias="deleteslide.png">res/img/menu/deleteslide.png</file>
+        <file alias="diagram.png">res/img/menu/diagram.png</file>
+        <file alias="duplicateslide.png">res/img/menu/duplicateslide.png</file>
+        <file alias="fonts.png">res/img/menu/fonts.png</file>
+        <file alias="fullscreen.png">res/img/menu/fullscreen.png</file>
+        <file alias="guide.png">res/img/menu/guide.png</file>
+        <file alias="help.png">res/img/menu/help.png</file>
+        <file alias="link.png">res/img/menu/link.png</file>
+        <file alias="media.png">res/img/menu/media.png</file>
+        <file alias="new.png">res/img/menu/new.png</file>
+        <file alias="newslide.png">res/img/menu/newslide.png</file>
+        <file alias="open.png">res/img/menu/open.png</file>
+        <file alias="paste.png">res/img/menu/paste.png</file>
+        <file alias="picture.png">res/img/menu/picture.png</file>
+        <file alias="preview.png">res/img/menu/preview.png</file>
+        <file alias="print.png">res/img/menu/print.png</file>
+        <file alias="redo.png">res/img/menu/redo.png</file>
+        <file alias="replace.png">res/img/menu/replace.png</file>
+        <file alias="save.png">res/img/menu/save.png</file>
+        <file alias="search.png">res/img/menu/search.png</file>
+        <file alias="slideshow.png">res/img/menu/slideshow.png</file>
+        <file alias="spelling.png">res/img/menu/spelling.png</file>
+        <file alias="symbol.png">res/img/menu/symbol.png</file>
+        <file alias="table.png">res/img/menu/table.png</file>
+        <file alias="undo.png">res/img/menu/undo.png</file>
+        <file alias="pdf.png">res/img/menu/pdf.png</file>
+        <file alias="goal.png">res/img/menu/goal.png</file>
+        <file alias="codeasset.png">res/img/menu/codeasset.png</file>
+    </qresource>
+    <qresource prefix="/images/symbols">
+        <file alias="img1.png">res/img/symbols/img1.png</file>
+        <file alias="img1greek.png">res/img/symbols/img1greek.png</file>
+        <file alias="img2.png">res/img/symbols/img2.png</file>
+        <file alias="img2greek.png">res/img/symbols/img2greek.png</file>
+        <file alias="img3.png">res/img/symbols/img3.png</file>
+        <file alias="img3greek.png">res/img/symbols/img3greek.png</file>
+        <file alias="img4.png">res/img/symbols/img4.png</file>
+        <file alias="img4greek.png">res/img/symbols/img4greek.png</file>
+        <file alias="img5.png">res/img/symbols/img5.png</file>
+        <file alias="img5greek.png">res/img/symbols/img5greek.png</file>
+        <file alias="img6.png">res/img/symbols/img6.png</file>
+        <file alias="img6greek.png">res/img/symbols/img6greek.png</file>
+        <file alias="img7.png">res/img/symbols/img7.png</file>
+        <file alias="img7greek.png">res/img/symbols/img7greek.png</file>
+        <file alias="img8.png">res/img/symbols/img8.png</file>
+        <file alias="img8greek.png">res/img/symbols/img8greek.png</file>
+        <file alias="img9.png">res/img/symbols/img9.png</file>
+        <file alias="img9greek.png">res/img/symbols/img9greek.png</file>
+        <file alias="img10.png">res/img/symbols/img10.png</file>
+        <file alias="img10greek.png">res/img/symbols/img10greek.png</file>
+        <file alias="img11.png">res/img/symbols/img11.png</file>
+        <file alias="img11greek.png">res/img/symbols/img11greek.png</file>
+        <file alias="img12.png">res/img/symbols/img12.png</file>
+        <file alias="img12greek.png">res/img/symbols/img12greek.png</file>
+        <file alias="img13.png">res/img/symbols/img13.png</file>
+        <file alias="img13greek.png">res/img/symbols/img13greek.png</file>
+        <file alias="img14.png">res/img/symbols/img14.png</file>
+        <file alias="img14greek.png">res/img/symbols/img14greek.png</file>
+        <file alias="img15.png">res/img/symbols/img15.png</file>
+        <file alias="img15greek.png">res/img/symbols/img15greek.png</file>
+        <file alias="img16.png">res/img/symbols/img16.png</file>
+        <file alias="img16greek.png">res/img/symbols/img16greek.png</file>
+        <file alias="img17.png">res/img/symbols/img17.png</file>
+        <file alias="img17greek.png">res/img/symbols/img17greek.png</file>
+        <file alias="img18.png">res/img/symbols/img18.png</file>
+        <file alias="img18greek.png">res/img/symbols/img18greek.png</file>
+        <file alias="img19.png">res/img/symbols/img19.png</file>
+        <file alias="img19greek.png">res/img/symbols/img19greek.png</file>
+        <file alias="img20.png">res/img/symbols/img20.png</file>
+        <file alias="img20greek.png">res/img/symbols/img20greek.png</file>
+        <file alias="img21.png">res/img/symbols/img21.png</file>
+        <file alias="img21greek.png">res/img/symbols/img21greek.png</file>
+        <file alias="img22.png">res/img/symbols/img22.png</file>
+        <file alias="img22greek.png">res/img/symbols/img22greek.png</file>
+        <file alias="img23.png">res/img/symbols/img23.png</file>
+        <file alias="img23greek.png">res/img/symbols/img23greek.png</file>
+        <file alias="img24.png">res/img/symbols/img24.png</file>
+        <file alias="img24greek.png">res/img/symbols/img24greek.png</file>
+        <file alias="img25.png">res/img/symbols/img25.png</file>
+        <file alias="img25greek.png">res/img/symbols/img25greek.png</file>
+        <file alias="img26.png">res/img/symbols/img26.png</file>
+        <file alias="img26greek.png">res/img/symbols/img26greek.png</file>
+        <file alias="img27.png">res/img/symbols/img27.png</file>
+        <file alias="img27greek.png">res/img/symbols/img27greek.png</file>
+        <file alias="img28.png">res/img/symbols/img28.png</file>
+        <file alias="img28greek.png">res/img/symbols/img28greek.png</file>
+        <file alias="img29.png">res/img/symbols/img29.png</file>
+        <file alias="img29greek.png">res/img/symbols/img29greek.png</file>
+        <file alias="img30.png">res/img/symbols/img30.png</file>
+        <file alias="img30greek.png">res/img/symbols/img30greek.png</file>
+        <file alias="img31.png">res/img/symbols/img31.png</file>
+        <file alias="img31greek.png">res/img/symbols/img31greek.png</file>
+        <file alias="img32.png">res/img/symbols/img32.png</file>
+        <file alias="img32greek.png">res/img/symbols/img32greek.png</file>
+        <file alias="img33.png">res/img/symbols/img33.png</file>
+        <file alias="img33greek.png">res/img/symbols/img33greek.png</file>
+        <file alias="img34.png">res/img/symbols/img34.png</file>
+        <file alias="img34greek.png">res/img/symbols/img34greek.png</file>
+        <file alias="img35.png">res/img/symbols/img35.png</file>
+        <file alias="img35greek.png">res/img/symbols/img35greek.png</file>
+        <file alias="img36.png">res/img/symbols/img36.png</file>
+        <file alias="img36greek.png">res/img/symbols/img36greek.png</file>
+        <file alias="img37.png">res/img/symbols/img37.png</file>
+        <file alias="img37greek.png">res/img/symbols/img37greek.png</file>
+        <file alias="img38.png">res/img/symbols/img38.png</file>
+        <file alias="img38greek.png">res/img/symbols/img38greek.png</file>
+        <file alias="img39.png">res/img/symbols/img39.png</file>
+        <file alias="img39greek.png">res/img/symbols/img39greek.png</file>
+        <file alias="img40.png">res/img/symbols/img40.png</file>
+        <file alias="img40greek.png">res/img/symbols/img40greek.png</file>
+        <file alias="img41.png">res/img/symbols/img41.png</file>
+        <file alias="img42.png">res/img/symbols/img42.png</file>
+        <file alias="img43.png">res/img/symbols/img43.png</file>
+        <file alias="img44.png">res/img/symbols/img44.png</file>
+        <file alias="img45.png">res/img/symbols/img45.png</file>
+        <file alias="img46.png">res/img/symbols/img46.png</file>
+        <file alias="img47.png">res/img/symbols/img47.png</file>
+        <file alias="img48.png">res/img/symbols/img48.png</file>
+        <file alias="img49.png">res/img/symbols/img49.png</file>
+        <file alias="img50.png">res/img/symbols/img50.png</file>
+        <file alias="img51.png">res/img/symbols/img51.png</file>
+        <file alias="img52.png">res/img/symbols/img52.png</file>
+        <file alias="img53.png">res/img/symbols/img53.png</file>
+        <file alias="img54.png">res/img/symbols/img54.png</file>
+        <file alias="img55.png">res/img/symbols/img55.png</file>
+        <file alias="img56.png">res/img/symbols/img56.png</file>
+        <file alias="img57.png">res/img/symbols/img57.png</file>
+        <file alias="img58.png">res/img/symbols/img58.png</file>
+        <file alias="img59.png">res/img/symbols/img59.png</file>
+        <file alias="img60.png">res/img/symbols/img60.png</file>
+        <file alias="img61.png">res/img/symbols/img61.png</file>
+        <file alias="img62.png">res/img/symbols/img62.png</file>
+        <file alias="img63.png">res/img/symbols/img63.png</file>
+        <file alias="img64.png">res/img/symbols/img64.png</file>
+        <file alias="img65.png">res/img/symbols/img65.png</file>
+        <file alias="img66.png">res/img/symbols/img66.png</file>
+        <file alias="img67.png">res/img/symbols/img67.png</file>
+        <file alias="img68.png">res/img/symbols/img68.png</file>
+        <file alias="img69.png">res/img/symbols/img69.png</file>
+        <file alias="img70.png">res/img/symbols/img70.png</file>
+        <file alias="img71.png">res/img/symbols/img71.png</file>
+        <file alias="img72.png">res/img/symbols/img72.png</file>
+        <file alias="img73.png">res/img/symbols/img73.png</file>
+        <file alias="img74.png">res/img/symbols/img74.png</file>
+        <file alias="img75.png">res/img/symbols/img75.png</file>
+        <file alias="img76.png">res/img/symbols/img76.png</file>
+        <file alias="img77.png">res/img/symbols/img77.png</file>
+        <file alias="img78.png">res/img/symbols/img78.png</file>
+        <file alias="img79.png">res/img/symbols/img79.png</file>
+        <file alias="img80.png">res/img/symbols/img80.png</file>
+        <file alias="img81.png">res/img/symbols/img81.png</file>
+        <file alias="img82.png">res/img/symbols/img82.png</file>
+        <file alias="img83.png">res/img/symbols/img83.png</file>
+        <file alias="img84.png">res/img/symbols/img84.png</file>
+        <file alias="img85.png">res/img/symbols/img85.png</file>
+        <file alias="img86.png">res/img/symbols/img86.png</file>
+        <file alias="img87.png">res/img/symbols/img87.png</file>
+        <file alias="img88.png">res/img/symbols/img88.png</file>
+        <file alias="img89.png">res/img/symbols/img89.png</file>
+        <file alias="img90.png">res/img/symbols/img90.png</file>
+        <file alias="img91.png">res/img/symbols/img91.png</file>
+        <file alias="img92.png">res/img/symbols/img92.png</file>
+        <file alias="img93.png">res/img/symbols/img93.png</file>
+        <file alias="img94.png">res/img/symbols/img94.png</file>
+        <file alias="img95.png">res/img/symbols/img95.png</file>
+        <file alias="img96.png">res/img/symbols/img96.png</file>
+        <file alias="img97.png">res/img/symbols/img97.png</file>
+        <file alias="img98.png">res/img/symbols/img98.png</file>
+        <file alias="img99.png">res/img/symbols/img99.png</file>
+        <file alias="img100.png">res/img/symbols/img100.png</file>
+        <file alias="img101.png">res/img/symbols/img101.png</file>
+        <file alias="img102.png">res/img/symbols/img102.png</file>
+        <file alias="img103.png">res/img/symbols/img103.png</file>
+        <file alias="img104.png">res/img/symbols/img104.png</file>
+        <file alias="img105.png">res/img/symbols/img105.png</file>
+        <file alias="img106.png">res/img/symbols/img106.png</file>
+        <file alias="img107.png">res/img/symbols/img107.png</file>
+        <file alias="img108.png">res/img/symbols/img108.png</file>
+        <file alias="img109.png">res/img/symbols/img109.png</file>
+        <file alias="img110.png">res/img/symbols/img110.png</file>
+        <file alias="img111.png">res/img/symbols/img111.png</file>
+        <file alias="img112.png">res/img/symbols/img112.png</file>
+        <file alias="img113.png">res/img/symbols/img113.png</file>
+        <file alias="img114.png">res/img/symbols/img114.png</file>
+        <file alias="img115.png">res/img/symbols/img115.png</file>
+        <file alias="img116.png">res/img/symbols/img116.png</file>
+        <file alias="img117.png">res/img/symbols/img117.png</file>
+        <file alias="img118.png">res/img/symbols/img118.png</file>
+        <file alias="img119.png">res/img/symbols/img119.png</file>
+        <file alias="img120.png">res/img/symbols/img120.png</file>
+        <file alias="img121.png">res/img/symbols/img121.png</file>
+        <file alias="img122.png">res/img/symbols/img122.png</file>
+        <file alias="img123.png">res/img/symbols/img123.png</file>
+        <file alias="img124.png">res/img/symbols/img124.png</file>
+        <file alias="img125.png">res/img/symbols/img125.png</file>
+        <file alias="img126.png">res/img/symbols/img126.png</file>
+        <file alias="img127.png">res/img/symbols/img127.png</file>
+        <file alias="img128.png">res/img/symbols/img128.png</file>
+        <file alias="img129.png">res/img/symbols/img129.png</file>
+        <file alias="img130.png">res/img/symbols/img130.png</file>
+        <file alias="img131.png">res/img/symbols/img131.png</file>
+        <file alias="img132.png">res/img/symbols/img132.png</file>
+        <file alias="img133.png">res/img/symbols/img133.png</file>
+        <file alias="img134.png">res/img/symbols/img134.png</file>
+        <file alias="img135.png">res/img/symbols/img135.png</file>
+        <file alias="img136.png">res/img/symbols/img136.png</file>
+        <file alias="img137.png">res/img/symbols/img137.png</file>
+        <file alias="img138.png">res/img/symbols/img138.png</file>
+        <file alias="img139.png">res/img/symbols/img139.png</file>
+        <file alias="img140.png">res/img/symbols/img140.png</file>
+        <file alias="img141.png">res/img/symbols/img141.png</file>
+        <file alias="img142.png">res/img/symbols/img142.png</file>
+        <file alias="img143.png">res/img/symbols/img143.png</file>
+        <file alias="img144.png">res/img/symbols/img144.png</file>
+        <file alias="img145.png">res/img/symbols/img145.png</file>
+        <file alias="img146.png">res/img/symbols/img146.png</file>
+        <file alias="img147.png">res/img/symbols/img147.png</file>
+        <file alias="img148.png">res/img/symbols/img148.png</file>
+        <file alias="img149.png">res/img/symbols/img149.png</file>
+        <file alias="img150.png">res/img/symbols/img150.png</file>
+        <file alias="img151.png">res/img/symbols/img151.png</file>
+        <file alias="img152.png">res/img/symbols/img152.png</file>
+        <file alias="img153.png">res/img/symbols/img153.png</file>
+        <file alias="img154.png">res/img/symbols/img154.png</file>
+        <file alias="img155.png">res/img/symbols/img155.png</file>
+        <file alias="img156.png">res/img/symbols/img156.png</file>
+        <file alias="img157.png">res/img/symbols/img157.png</file>
+        <file alias="img158.png">res/img/symbols/img158.png</file>
+        <file alias="img159.png">res/img/symbols/img159.png</file>
+        <file alias="img160.png">res/img/symbols/img160.png</file>
+        <file alias="img161.png">res/img/symbols/img161.png</file>
+        <file alias="img162.png">res/img/symbols/img162.png</file>
+        <file alias="img163.png">res/img/symbols/img163.png</file>
+        <file alias="img164.png">res/img/symbols/img164.png</file>
+        <file alias="img165.png">res/img/symbols/img165.png</file>
+        <file alias="img166.png">res/img/symbols/img166.png</file>
+        <file alias="img167.png">res/img/symbols/img167.png</file>
+        <file alias="img168.png">res/img/symbols/img168.png</file>
+        <file alias="img169.png">res/img/symbols/img169.png</file>
+        <file alias="img170.png">res/img/symbols/img170.png</file>
+        <file alias="img171.png">res/img/symbols/img171.png</file>
+        <file alias="img172.png">res/img/symbols/img172.png</file>
+        <file alias="img173.png">res/img/symbols/img173.png</file>
+        <file alias="img174.png">res/img/symbols/img174.png</file>
+        <file alias="img175.png">res/img/symbols/img175.png</file>
+        <file alias="img176.png">res/img/symbols/img176.png</file>
+        <file alias="img177.png">res/img/symbols/img177.png</file>
+        <file alias="img178.png">res/img/symbols/img178.png</file>
+        <file alias="img179.png">res/img/symbols/img179.png</file>
+        <file alias="img180.png">res/img/symbols/img180.png</file>
+        <file alias="img181.png">res/img/symbols/img181.png</file>
+        <file alias="img182.png">res/img/symbols/img182.png</file>
+        <file alias="img183.png">res/img/symbols/img183.png</file>
+        <file alias="img184.png">res/img/symbols/img184.png</file>
+        <file alias="img185.png">res/img/symbols/img185.png</file>
+        <file alias="img186.png">res/img/symbols/img186.png</file>
+        <file alias="img187.png">res/img/symbols/img187.png</file>
+        <file alias="img188.png">res/img/symbols/img188.png</file>
+        <file alias="img189.png">res/img/symbols/img189.png</file>
+        <file alias="img190.png">res/img/symbols/img190.png</file>
+        <file alias="img191.png">res/img/symbols/img191.png</file>
+        <file alias="img192.png">res/img/symbols/img192.png</file>
+        <file alias="img193.png">res/img/symbols/img193.png</file>
+        <file alias="img194.png">res/img/symbols/img194.png</file>
+        <file alias="img195.png">res/img/symbols/img195.png</file>
+        <file alias="img196.png">res/img/symbols/img196.png</file>
+        <file alias="img197.png">res/img/symbols/img197.png</file>
+        <file alias="img198.png">res/img/symbols/img198.png</file>
+        <file alias="img199.png">res/img/symbols/img199.png</file>
+        <file alias="img200.png">res/img/symbols/img200.png</file>
+        <file alias="img201.png">res/img/symbols/img201.png</file>
+        <file alias="img202.png">res/img/symbols/img202.png</file>
+        <file alias="img203.png">res/img/symbols/img203.png</file>
+        <file alias="img204.png">res/img/symbols/img204.png</file>
+        <file alias="img205.png">res/img/symbols/img205.png</file>
+        <file alias="img206.png">res/img/symbols/img206.png</file>
+        <file alias="img207.png">res/img/symbols/img207.png</file>
+        <file alias="img208.png">res/img/symbols/img208.png</file>
+        <file alias="img209.png">res/img/symbols/img209.png</file>
+        <file alias="img210.png">res/img/symbols/img210.png</file>
+        <file alias="img211.png">res/img/symbols/img211.png</file>
+        <file alias="img212.png">res/img/symbols/img212.png</file>
+        <file alias="img213.png">res/img/symbols/img213.png</file>
+        <file alias="img214.png">res/img/symbols/img214.png</file>
+        <file alias="img215.png">res/img/symbols/img215.png</file>
+        <file alias="img216.png">res/img/symbols/img216.png</file>
+        <file alias="img217.png">res/img/symbols/img217.png</file>
+        <file alias="img218.png">res/img/symbols/img218.png</file>
+        <file alias="img219.png">res/img/symbols/img219.png</file>
+        <file alias="img220.png">res/img/symbols/img220.png</file>
+        <file alias="img221.png">res/img/symbols/img221.png</file>
+        <file alias="img222.png">res/img/symbols/img222.png</file>
+        <file alias="img223.png">res/img/symbols/img223.png</file>
+        <file alias="img224.png">res/img/symbols/img224.png</file>
+        <file alias="img225.png">res/img/symbols/img225.png</file>
+        <file alias="img226.png">res/img/symbols/img226.png</file>
+        <file alias="img227.png">res/img/symbols/img227.png</file>
+        <file alias="img228.png">res/img/symbols/img228.png</file>
+        <file alias="img229.png">res/img/symbols/img229.png</file>
+        <file alias="img230.png">res/img/symbols/img230.png</file>
+        <file alias="img231.png">res/img/symbols/img231.png</file>
+        <file alias="img232.png">res/img/symbols/img232.png</file>
+        <file alias="img233.png">res/img/symbols/img233.png</file>
+        <file alias="img234.png">res/img/symbols/img234.png</file>
+        <file alias="img235.png">res/img/symbols/img235.png</file>
+        <file alias="img236.png">res/img/symbols/img236.png</file>
+        <file alias="img237.png">res/img/symbols/img237.png</file>
+        <file alias="img238.png">res/img/symbols/img238.png</file>
+        <file alias="img239.png">res/img/symbols/img239.png</file>
+        <file alias="img240.png">res/img/symbols/img240.png</file>
+        <file alias="img241.png">res/img/symbols/img241.png</file>
+        <file alias="img242.png">res/img/symbols/img242.png</file>
+        <file alias="img243.png">res/img/symbols/img243.png</file>
+        <file alias="img244.png">res/img/symbols/img244.png</file>
+        <file alias="img245.png">res/img/symbols/img245.png</file>
+        <file alias="img246.png">res/img/symbols/img246.png</file>
+        <file alias="img247.png">res/img/symbols/img247.png</file>
+        <file alias="img248.png">res/img/symbols/img248.png</file>
+        <file alias="img249.png">res/img/symbols/img249.png</file>
+        <file alias="img250.png">res/img/symbols/img250.png</file>
+        <file alias="img251.png">res/img/symbols/img251.png</file>
+        <file alias="img252.png">res/img/symbols/img252.png</file>
+        <file alias="img253.png">res/img/symbols/img253.png</file>
+        <file alias="img254.png">res/img/symbols/img254.png</file>
+        <file alias="img255.png">res/img/symbols/img255.png</file>
+        <file alias="img256.png">res/img/symbols/img256.png</file>
+        <file alias="img257.png">res/img/symbols/img257.png</file>
+        <file alias="img258.png">res/img/symbols/img258.png</file>
+        <file alias="img259.png">res/img/symbols/img259.png</file>
+        <file alias="img260.png">res/img/symbols/img260.png</file>
+        <file alias="img261.png">res/img/symbols/img261.png</file>
+        <file alias="img262.png">res/img/symbols/img262.png</file>
+        <file alias="img263.png">res/img/symbols/img263.png</file>
+        <file alias="img264.png">res/img/symbols/img264.png</file>
+        <file alias="img265.png">res/img/symbols/img265.png</file>
+        <file alias="img266.png">res/img/symbols/img266.png</file>
+        <file alias="img267.png">res/img/symbols/img267.png</file>
+        <file alias="img268.png">res/img/symbols/img268.png</file>
+        <file alias="img269.png">res/img/symbols/img269.png</file>
+        <file alias="img270.png">res/img/symbols/img270.png</file>
+        <file alias="img271.png">res/img/symbols/img271.png</file>
+        <file alias="img272.png">res/img/symbols/img272.png</file>
+        <file alias="img273.png">res/img/symbols/img273.png</file>
+        <file alias="img274.png">res/img/symbols/img274.png</file>
+        <file alias="img275.png">res/img/symbols/img275.png</file>
+        <file alias="img276.png">res/img/symbols/img276.png</file>
+        <file alias="img277.png">res/img/symbols/img277.png</file>
+        <file alias="img278.png">res/img/symbols/img278.png</file>
+        <file alias="img279.png">res/img/symbols/img279.png</file>
+        <file alias="img280.png">res/img/symbols/img280.png</file>
+        <file alias="img281.png">res/img/symbols/img281.png</file>
+        <file alias="img282.png">res/img/symbols/img282.png</file>
+        <file alias="img283.png">res/img/symbols/img283.png</file>
+        <file alias="img284.png">res/img/symbols/img284.png</file>
+        <file alias="img285.png">res/img/symbols/img285.png</file>
+        <file alias="img286.png">res/img/symbols/img286.png</file>
+        <file alias="img287.png">res/img/symbols/img287.png</file>
+        <file alias="img288.png">res/img/symbols/img288.png</file>
+        <file alias="img289.png">res/img/symbols/img289.png</file>
+        <file alias="img290.png">res/img/symbols/img290.png</file>
+        <file alias="img291.png">res/img/symbols/img291.png</file>
+        <file alias="img292.png">res/img/symbols/img292.png</file>
+        <file alias="img293.png">res/img/symbols/img293.png</file>
+        <file alias="img294.png">res/img/symbols/img294.png</file>
+        <file alias="img295.png">res/img/symbols/img295.png</file>
+        <file alias="img296.png">res/img/symbols/img296.png</file>
+        <file alias="img297.png">res/img/symbols/img297.png</file>
+        <file alias="img298.png">res/img/symbols/img298.png</file>
+        <file alias="img299.png">res/img/symbols/img299.png</file>
+        <file alias="img300.png">res/img/symbols/img300.png</file>
+        <file alias="img301.png">res/img/symbols/img301.png</file>
+        <file alias="img302.png">res/img/symbols/img302.png</file>
+        <file alias="img303.png">res/img/symbols/img303.png</file>
+        <file alias="img304.png">res/img/symbols/img304.png</file>
+        <file alias="img305.png">res/img/symbols/img305.png</file>
+        <file alias="img306.png">res/img/symbols/img306.png</file>
+        <file alias="img307.png">res/img/symbols/img307.png</file>
+        <file alias="img308.png">res/img/symbols/img308.png</file>
+        <file alias="img309.png">res/img/symbols/img309.png</file>
+        <file alias="img310.png">res/img/symbols/img310.png</file>
+        <file alias="img311.png">res/img/symbols/img311.png</file>
+        <file alias="img312.png">res/img/symbols/img312.png</file>
+        <file alias="img313.png">res/img/symbols/img313.png</file>
+        <file alias="img314.png">res/img/symbols/img314.png</file>
+        <file alias="img315.png">res/img/symbols/img315.png</file>
+        <file alias="img316.png">res/img/symbols/img316.png</file>
+        <file alias="img317.png">res/img/symbols/img317.png</file>
+        <file alias="img318.png">res/img/symbols/img318.png</file>
+        <file alias="img319.png">res/img/symbols/img319.png</file>
+        <file alias="img320.png">res/img/symbols/img320.png</file>
+        <file alias="img321.png">res/img/symbols/img321.png</file>
+        <file alias="img322.png">res/img/symbols/img322.png</file>
+        <file alias="img323.png">res/img/symbols/img323.png</file>
+        <file alias="img324.png">res/img/symbols/img324.png</file>
+        <file alias="img325.png">res/img/symbols/img325.png</file>
+        <file alias="img326.png">res/img/symbols/img326.png</file>
+        <file alias="img327.png">res/img/symbols/img327.png</file>
+        <file alias="img328.png">res/img/symbols/img328.png</file>
+        <file alias="img329.png">res/img/symbols/img329.png</file>
+        <file alias="img330.png">res/img/symbols/img330.png</file>
+        <file alias="img331.png">res/img/symbols/img331.png</file>
+        <file alias="img332.png">res/img/symbols/img332.png</file>
+        <file alias="img333.png">res/img/symbols/img333.png</file>
+        <file alias="img334.png">res/img/symbols/img334.png</file>
+        <file alias="img335.png">res/img/symbols/img335.png</file>
+        <file alias="img336.png">res/img/symbols/img336.png</file>
+        <file alias="img337.png">res/img/symbols/img337.png</file>
+        <file alias="img338.png">res/img/symbols/img338.png</file>
+        <file alias="img339.png">res/img/symbols/img339.png</file>
+        <file alias="img340.png">res/img/symbols/img340.png</file>
+        <file alias="img341.png">res/img/symbols/img341.png</file>
+        <file alias="img342.png">res/img/symbols/img342.png</file>
+        <file alias="img343.png">res/img/symbols/img343.png</file>
+        <file alias="img344.png">res/img/symbols/img344.png</file>
+        <file alias="img345.png">res/img/symbols/img345.png</file>
+        <file alias="img346.png">res/img/symbols/img346.png</file>
+        <file alias="img347.png">res/img/symbols/img347.png</file>
+        <file alias="img348.png">res/img/symbols/img348.png</file>
+        <file alias="img349.png">res/img/symbols/img349.png</file>
+        <file alias="img350.png">res/img/symbols/img350.png</file>
+        <file alias="img351.png">res/img/symbols/img351.png</file>
+        <file alias="img352.png">res/img/symbols/img352.png</file>
+        <file alias="img353.png">res/img/symbols/img353.png</file>
+        <file alias="img354.png">res/img/symbols/img354.png</file>
+        <file alias="img355.png">res/img/symbols/img355.png</file>
+        <file alias="img356.png">res/img/symbols/img356.png</file>
+        <file alias="img357.png">res/img/symbols/img357.png</file>
+        <file alias="img358.png">res/img/symbols/img358.png</file>
+        <file alias="img359.png">res/img/symbols/img359.png</file>
+        <file alias="img360.png">res/img/symbols/img360.png</file>
+        <file alias="img361.png">res/img/symbols/img361.png</file>
+        <file alias="img362.png">res/img/symbols/img362.png</file>
+        <file alias="img363.png">res/img/symbols/img363.png</file>
+        <file alias="img364.png">res/img/symbols/img364.png</file>
+        <file alias="img365.png">res/img/symbols/img365.png</file>
+        <file alias="img366.png">res/img/symbols/img366.png</file>
+        <file alias="img367.png">res/img/symbols/img367.png</file>
+        <file alias="img368.png">res/img/symbols/img368.png</file>
+        <file alias="img369.png">res/img/symbols/img369.png</file>
+        <file alias="img370.png">res/img/symbols/img370.png</file>
+        <file alias="img371.png">res/img/symbols/img371.png</file>
+        <file alias="img372.png">res/img/symbols/img372.png</file>
+        <file alias="img373.png">res/img/symbols/img373.png</file>
+        <file alias="img374.png">res/img/symbols/img374.png</file>
+        <file alias="img375.png">res/img/symbols/img375.png</file>
+        <file alias="img376.png">res/img/symbols/img376.png</file>
+        <file alias="img377.png">res/img/symbols/img377.png</file>
+        <file alias="img378.png">res/img/symbols/img378.png</file>
+        <file alias="img379.png">res/img/symbols/img379.png</file>
+        <file alias="img380.png">res/img/symbols/img380.png</file>
+        <file alias="img381.png">res/img/symbols/img381.png</file>
+        <file alias="img382.png">res/img/symbols/img382.png</file>
+        <file alias="img383.png">res/img/symbols/img383.png</file>
+        <file alias="img384.png">res/img/symbols/img384.png</file>
+        <file alias="img385.png">res/img/symbols/img385.png</file>
+        <file alias="img386.png">res/img/symbols/img386.png</file>
+        <file alias="img387.png">res/img/symbols/img387.png</file>
+        <file alias="img388.png">res/img/symbols/img388.png</file>
+        <file alias="img389.png">res/img/symbols/img389.png</file>
+        <file alias="img390.png">res/img/symbols/img390.png</file>
+        <file alias="img391.png">res/img/symbols/img391.png</file>
+        <file alias="img392.png">res/img/symbols/img392.png</file>
+        <file alias="img393.png">res/img/symbols/img393.png</file>
+        <file alias="img394.png">res/img/symbols/img394.png</file>
+        <file alias="img395.png">res/img/symbols/img395.png</file>
+        <file alias="img396.png">res/img/symbols/img396.png</file>
+        <file alias="img397.png">res/img/symbols/img397.png</file>
+        <file alias="img398.png">res/img/symbols/img398.png</file>
+        <file alias="img399.png">res/img/symbols/img399.png</file>
+        <file alias="img400.png">res/img/symbols/img400.png</file>
+    </qresource>
+    <qresource prefix="/images/math/tabbar">
+        <file alias="alg-eq01.png">res/img/math/tabbar/algebra/alg-eq01.png</file>
+        <file alias="alg-eq02.png">res/img/math/tabbar/algebra/alg-eq02.png</file>
+        <file alias="alg-eq03.png">res/img/math/tabbar/algebra/alg-eq03.png</file>
+        <file alias="alg-eq04.png">res/img/math/tabbar/algebra/alg-eq04.png</file>
+        <file alias="alg-eq05.png">res/img/math/tabbar/algebra/alg-eq05.png</file>
+        <file alias="alg-eq06.png">res/img/math/tabbar/algebra/alg-eq06.png</file>
+        <file alias="che-eq01.png">res/img/math/tabbar/chemistry/che-eq01.png</file>
+        <file alias="che-eq02.png">res/img/math/tabbar/chemistry/che-eq02.png</file>
+        <file alias="che-eq03.png">res/img/math/tabbar/chemistry/che-eq03.png</file>
+        <file alias="che-eq04.png">res/img/math/tabbar/chemistry/che-eq04.png</file>
+        <file alias="che-eq05.png">res/img/math/tabbar/chemistry/che-eq05.png</file>
+        <file alias="der-eq01.png">res/img/math/tabbar/derivs/der-eq01.png</file>
+        <file alias="der-eq02.png">res/img/math/tabbar/derivs/der-eq02.png</file>
+        <file alias="der-eq03.png">res/img/math/tabbar/derivs/der-eq03.png</file>
+        <file alias="der-eq04.png">res/img/math/tabbar/derivs/der-eq04.png</file>
+        <file alias="der-eq05.png">res/img/math/tabbar/derivs/der-eq05.png</file>
+        <file alias="der-eq06.png">res/img/math/tabbar/derivs/der-eq06.png</file>
+        <file alias="geo-eq01.png">res/img/math/tabbar/geometry/geo-eq01.png</file>
+        <file alias="geo-eq02.png">res/img/math/tabbar/geometry/geo-eq02.png</file>
+        <file alias="geo-eq03.png">res/img/math/tabbar/geometry/geo-eq03.png</file>
+        <file alias="geo-eq04.png">res/img/math/tabbar/geometry/geo-eq04.png</file>
+        <file alias="mat-eq01.png">res/img/math/tabbar/matrix/mat-eq01.png</file>
+        <file alias="mat-eq02.png">res/img/math/tabbar/matrix/mat-eq02.png</file>
+        <file alias="mat-eq03.png">res/img/math/tabbar/matrix/mat-eq03.png</file>
+        <file alias="mat-eq04.png">res/img/math/tabbar/matrix/mat-eq04.png</file>
+        <file alias="phy-eq01.png">res/img/math/tabbar/physics/phy-eq01.png</file>
+        <file alias="phy-eq02.png">res/img/math/tabbar/physics/phy-eq02.png</file>
+        <file alias="phy-eq03.png">res/img/math/tabbar/physics/phy-eq03.png</file>
+        <file alias="phy-eq04.png">res/img/math/tabbar/physics/phy-eq04.png</file>
+        <file alias="set-eq01.png">res/img/math/tabbar/sets/set-eq01.png</file>
+        <file alias="set-eq02.png">res/img/math/tabbar/sets/set-eq02.png</file>
+        <file alias="sta-eq01.png">res/img/math/tabbar/stats/sta-eq01.png</file>
+        <file alias="sta-eq02.png">res/img/math/tabbar/stats/sta-eq02.png</file>
+        <file alias="sta-eq03.png">res/img/math/tabbar/stats/sta-eq03.png</file>
+        <file alias="sta-eq04.png">res/img/math/tabbar/stats/sta-eq04.png</file>
+        <file alias="sta-eq05.png">res/img/math/tabbar/stats/sta-eq05.png</file>
+        <file alias="sta-eq06.png">res/img/math/tabbar/stats/sta-eq06.png</file>
+        <file alias="sta-eq07.png">res/img/math/tabbar/stats/sta-eq07.png</file>
+        <file alias="tri-eq01.png">res/img/math/tabbar/trigonometry/tri-eq01.png</file>
+        <file alias="tri-eq02.png">res/img/math/tabbar/trigonometry/tri-eq02.png</file>
+        <file alias="tri-eq03.png">res/img/math/tabbar/trigonometry/tri-eq03.png</file>
+        <file alias="tri-eq04.png">res/img/math/tabbar/trigonometry/tri-eq04.png</file>
+        <file alias="mat-eq05.png">res/img/math/tabbar/matrix/mat-eq05.png</file>
+        <file alias="mat-eq06.png">res/img/math/tabbar/matrix/mat-eq06.png</file>
+        <file alias="tri-eq05.png">res/img/math/tabbar/trigonometry/tri-eq05.png</file>
+        <file alias="tri-eq06.png">res/img/math/tabbar/trigonometry/tri-eq06.png</file>
+        <file alias="alg-eq07.png">res/img/math/tabbar/algebra/alg-eq07.png</file>
+    </qresource>
+    <qresource prefix="/xml">
+        <file alias="document.xsd">res/xml/document.xsd</file>
+    </qresource>
+    <qresource prefix="/languages">
+        <file>qt_es_ES.qm</file>
+        <file>writer_es_ES.qm</file>
+    </qresource>
+    <qresource prefix="/images/math/toolbar">
+        <file alias="angle.png">res/img/math/toolbar/angle.png</file>
+        <file alias="brackets.png">res/img/math/toolbar/brackets.png</file>
+        <file alias="brackets2.png">res/img/math/toolbar/brackets2.png</file>
+        <file alias="exp.png">res/img/math/toolbar/exp.png</file>
+        <file alias="frac.png">res/img/math/toolbar/frac.png</file>
+        <file alias="integ.png">res/img/math/toolbar/integ.png</file>
+        <file alias="integ2.png">res/img/math/toolbar/integ2.png</file>
+        <file alias="matrix.png">res/img/math/toolbar/matrix.png</file>
+        <file alias="matrix2.png">res/img/math/toolbar/matrix2.png</file>
+        <file alias="parenthesis.png">res/img/math/toolbar/parenthesis.png</file>
+        <file alias="space.png">res/img/math/toolbar/space.png</file>
+        <file alias="sq.png">res/img/math/toolbar/sq.png</file>
+        <file alias="sq2.png">res/img/math/toolbar/sq2.png</file>
+        <file alias="sub.png">res/img/math/toolbar/sub.png</file>
+        <file alias="sum.png">res/img/math/toolbar/sum.png</file>
+        <file alias="sum2.png">res/img/math/toolbar/sum2.png</file>
+        <file alias="symbol1.png">res/img/math/toolbar/symbol1.png</file>
+        <file alias="symbol2.png">res/img/math/toolbar/symbol2.png</file>
+        <file alias="symbol3.png">res/img/math/toolbar/symbol3.png</file>
+        <file alias="symbol4.png">res/img/math/toolbar/symbol4.png</file>
+        <file alias="symbol5.png">res/img/math/toolbar/symbol5.png</file>
+        <file alias="symbol6.png">res/img/math/toolbar/symbol6.png</file>
+        <file alias="symbol7.png">res/img/math/toolbar/symbol7.png</file>
+        <file alias="symbol8.png">res/img/math/toolbar/symbol8.png</file>
+        <file alias="symbol9.png">res/img/math/toolbar/symbol9.png</file>
+        <file alias="trigonometry.png">res/img/math/toolbar/trigonometry.png</file>
+        <file alias="label-edit.png">res/img/math/toolbar/label-edit.png</file>
+    </qresource>
+    <qresource prefix="/scripts">
+        <file alias="MathJax.js">lib/mathjax/MathJax.js</file>
+    </qresource>
+    <qresource prefix="/scripts/extensions">
+        <file alias="asciimath2jax.js">lib/mathjax/extensions/asciimath2jax.js</file>
+        <file alias="CHTML-preview.js">lib/mathjax/extensions/CHTML-preview.js</file>
+        <file alias="FontWarnings.js">lib/mathjax/extensions/FontWarnings.js</file>
+        <file alias="HelpDialog.js">lib/mathjax/extensions/HelpDialog.js</file>
+        <file alias="jsMath2jax.js">lib/mathjax/extensions/jsMath2jax.js</file>
+        <file alias="MatchWebFonts.js">lib/mathjax/extensions/MatchWebFonts.js</file>
+        <file alias="MathEvents.js">lib/mathjax/extensions/MathEvents.js</file>
+        <file alias="MathMenu.js">lib/mathjax/extensions/MathMenu.js</file>
+        <file alias="MathZoom.js">lib/mathjax/extensions/MathZoom.js</file>
+        <file alias="mml2jax.js">lib/mathjax/extensions/mml2jax.js</file>
+        <file alias="Safe.js">lib/mathjax/extensions/Safe.js</file>
+        <file alias="tex2jax.js">lib/mathjax/extensions/tex2jax.js</file>
+        <file alias="toMathML.js">lib/mathjax/extensions/toMathML.js</file>
+    </qresource>
+    <qresource prefix="/scripts/extensions/HTML-CSS">
+        <file alias="handle-floats.js">lib/mathjax/extensions/HTML-CSS/handle-floats.js</file>
+    </qresource>
+    <qresource prefix="/scripts/extensions/MathML">
+        <file alias="content-mathml.js">lib/mathjax/extensions/MathML/content-mathml.js</file>
+        <file alias="mml3.js">lib/mathjax/extensions/MathML/mml3.js</file>
+    </qresource>
+    <qresource prefix="/scripts/extensions/TeX">
+        <file alias="action.js">lib/mathjax/extensions/TeX/action.js</file>
+        <file alias="AMScd.js">lib/mathjax/extensions/TeX/AMScd.js</file>
+        <file alias="AMSmath.js">lib/mathjax/extensions/TeX/AMSmath.js</file>
+        <file alias="AMSsymbols.js">lib/mathjax/extensions/TeX/AMSsymbols.js</file>
+        <file alias="autobold.js">lib/mathjax/extensions/TeX/autobold.js</file>
+        <file alias="autoload-all.js">lib/mathjax/extensions/TeX/autoload-all.js</file>
+        <file alias="bbox.js">lib/mathjax/extensions/TeX/bbox.js</file>
+        <file alias="begingroup.js">lib/mathjax/extensions/TeX/begingroup.js</file>
+        <file alias="boldsymbol.js">lib/mathjax/extensions/TeX/boldsymbol.js</file>
+        <file alias="cancel.js">lib/mathjax/extensions/TeX/cancel.js</file>
+        <file alias="color.js">lib/mathjax/extensions/TeX/color.js</file>
+        <file alias="enclose.js">lib/mathjax/extensions/TeX/enclose.js</file>
+        <file alias="extpfeil.js">lib/mathjax/extensions/TeX/extpfeil.js</file>
+        <file alias="HTML.js">lib/mathjax/extensions/TeX/HTML.js</file>
+        <file alias="mathchoice.js">lib/mathjax/extensions/TeX/mathchoice.js</file>
+        <file alias="mediawiki-texvc.js">lib/mathjax/extensions/TeX/mediawiki-texvc.js</file>
+        <file alias="mhchem.js">lib/mathjax/extensions/TeX/mhchem.js</file>
+        <file alias="newcommand.js">lib/mathjax/extensions/TeX/newcommand.js</file>
+        <file alias="noErrors.js">lib/mathjax/extensions/TeX/noErrors.js</file>
+        <file alias="noUndefined.js">lib/mathjax/extensions/TeX/noUndefined.js</file>
+        <file alias="unicode.js">lib/mathjax/extensions/TeX/unicode.js</file>
+        <file alias="verb.js">lib/mathjax/extensions/TeX/verb.js</file>
+    </qresource>
+    <qresource prefix="/scripts/config">
+        <file alias="Accessible-full.js">lib/mathjax/config/Accessible-full.js</file>
+        <file alias="Accessible.js">lib/mathjax/config/Accessible.js</file>
+        <file alias="AM_HTMLorMML-full.js">lib/mathjax/config/AM_HTMLorMML-full.js</file>
+        <file alias="AM_HTMLorMML.js">lib/mathjax/config/AM_HTMLorMML.js</file>
+        <file alias="default.js">lib/mathjax/config/default.js</file>
+        <file alias="MML_HTMLorMML-full.js">lib/mathjax/config/MML_HTMLorMML-full.js</file>
+        <file alias="MML_HTMLorMML.js">lib/mathjax/config/MML_HTMLorMML.js</file>
+        <file alias="MMLorHTML.js">lib/mathjax/config/MMLorHTML.js</file>
+        <file alias="Safe.js">lib/mathjax/config/Safe.js</file>
+        <file alias="TeX-AMS_HTML-full.js">lib/mathjax/config/TeX-AMS_HTML-full.js</file>
+        <file alias="TeX-AMS_HTML.js">lib/mathjax/config/TeX-AMS_HTML.js</file>
+        <file alias="TeX-AMS-MML_HTMLorMML-full.js">lib/mathjax/config/TeX-AMS-MML_HTMLorMML-full.js</file>
+        <file alias="TeX-AMS-MML_HTMLorMML.js">lib/mathjax/config/TeX-AMS-MML_HTMLorMML.js</file>
+        <file alias="TeX-AMS-MML_SVG-full.js">lib/mathjax/config/TeX-AMS-MML_SVG-full.js</file>
+        <file alias="TeX-AMS-MML_SVG.js">lib/mathjax/config/TeX-AMS-MML_SVG.js</file>
+        <file alias="TeX-MML-AM_HTMLorMML-full.js">lib/mathjax/config/TeX-MML-AM_HTMLorMML-full.js</file>
+        <file alias="TeX-MML-AM_HTMLorMML.js">lib/mathjax/config/TeX-MML-AM_HTMLorMML.js</file>
+    </qresource>
+    <qresource prefix="/scripts/config/local">
+        <file alias="local.js">lib/mathjax/config/local/local.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/element/mml">
+        <file alias="jax.js">lib/mathjax/jax/element/mml/jax.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/input/AsciiMath">
+        <file alias="config.js">lib/mathjax/jax/input/AsciiMath/config.js</file>
+        <file alias="jax.js">lib/mathjax/jax/input/AsciiMath/jax.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/output/CommonHTML">
+        <file alias="config.js">lib/mathjax/jax/output/CommonHTML/config.js</file>
+        <file alias="jax.js">lib/mathjax/jax/output/CommonHTML/jax.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/element/mml/optable">
+        <file alias="Arrows.js">lib/mathjax/jax/element/mml/optable/Arrows.js</file>
+        <file alias="BasicLatin.js">lib/mathjax/jax/element/mml/optable/BasicLatin.js</file>
+        <file alias="CombDiacritMarks.js">lib/mathjax/jax/element/mml/optable/CombDiacritMarks.js</file>
+        <file alias="CombDiactForSymbols.js">lib/mathjax/jax/element/mml/optable/CombDiactForSymbols.js</file>
+        <file alias="Dingbats.js">lib/mathjax/jax/element/mml/optable/Dingbats.js</file>
+        <file alias="GeneralPunctuation.js">lib/mathjax/jax/element/mml/optable/GeneralPunctuation.js</file>
+        <file alias="GeometricShapes.js">lib/mathjax/jax/element/mml/optable/GeometricShapes.js</file>
+        <file alias="GreekAndCoptic.js">lib/mathjax/jax/element/mml/optable/GreekAndCoptic.js</file>
+        <file alias="Latin1Supplement.js">lib/mathjax/jax/element/mml/optable/Latin1Supplement.js</file>
+        <file alias="LetterlikeSymbols.js">lib/mathjax/jax/element/mml/optable/LetterlikeSymbols.js</file>
+        <file alias="MathOperators.js">lib/mathjax/jax/element/mml/optable/MathOperators.js</file>
+        <file alias="MiscMathSymbolsA.js">lib/mathjax/jax/element/mml/optable/MiscMathSymbolsA.js</file>
+        <file alias="MiscMathSymbolsB.js">lib/mathjax/jax/element/mml/optable/MiscMathSymbolsB.js</file>
+        <file alias="MiscSymbolsAndArrows.js">lib/mathjax/jax/element/mml/optable/MiscSymbolsAndArrows.js</file>
+        <file alias="MiscTechnical.js">lib/mathjax/jax/element/mml/optable/MiscTechnical.js</file>
+        <file alias="SpacingModLetters.js">lib/mathjax/jax/element/mml/optable/SpacingModLetters.js</file>
+        <file alias="SupplementalArrowsA.js">lib/mathjax/jax/element/mml/optable/SupplementalArrowsA.js</file>
+        <file alias="SupplementalArrowsB.js">lib/mathjax/jax/element/mml/optable/SupplementalArrowsB.js</file>
+        <file alias="SuppMathOperators.js">lib/mathjax/jax/element/mml/optable/SuppMathOperators.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/input/MathML">
+        <file alias="config.js">lib/mathjax/jax/input/MathML/config.js</file>
+        <file alias="jax.js">lib/mathjax/jax/input/MathML/jax.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/input/TeX">
+        <file alias="config.js">lib/mathjax/jax/input/TeX/config.js</file>
+        <file alias="jax.js">lib/mathjax/jax/input/TeX/jax.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/input/MathML/entities">
+        <file alias="a.js">lib/mathjax/jax/input/MathML/entities/a.js</file>
+        <file alias="b.js">lib/mathjax/jax/input/MathML/entities/b.js</file>
+        <file alias="c.js">lib/mathjax/jax/input/MathML/entities/c.js</file>
+        <file alias="d.js">lib/mathjax/jax/input/MathML/entities/d.js</file>
+        <file alias="e.js">lib/mathjax/jax/input/MathML/entities/e.js</file>
+        <file alias="f.js">lib/mathjax/jax/input/MathML/entities/f.js</file>
+        <file alias="fr.js">lib/mathjax/jax/input/MathML/entities/fr.js</file>
+        <file alias="g.js">lib/mathjax/jax/input/MathML/entities/g.js</file>
+        <file alias="h.js">lib/mathjax/jax/input/MathML/entities/h.js</file>
+        <file alias="i.js">lib/mathjax/jax/input/MathML/entities/i.js</file>
+        <file alias="j.js">lib/mathjax/jax/input/MathML/entities/j.js</file>
+        <file alias="k.js">lib/mathjax/jax/input/MathML/entities/k.js</file>
+        <file alias="l.js">lib/mathjax/jax/input/MathML/entities/l.js</file>
+        <file alias="m.js">lib/mathjax/jax/input/MathML/entities/m.js</file>
+        <file alias="n.js">lib/mathjax/jax/input/MathML/entities/n.js</file>
+        <file alias="o.js">lib/mathjax/jax/input/MathML/entities/o.js</file>
+        <file alias="opf.js">lib/mathjax/jax/input/MathML/entities/opf.js</file>
+        <file alias="p.js">lib/mathjax/jax/input/MathML/entities/p.js</file>
+        <file alias="q.js">lib/mathjax/jax/input/MathML/entities/q.js</file>
+        <file alias="r.js">lib/mathjax/jax/input/MathML/entities/r.js</file>
+        <file alias="s.js">lib/mathjax/jax/input/MathML/entities/s.js</file>
+        <file alias="scr.js">lib/mathjax/jax/input/MathML/entities/scr.js</file>
+        <file alias="t.js">lib/mathjax/jax/input/MathML/entities/t.js</file>
+        <file alias="u.js">lib/mathjax/jax/input/MathML/entities/u.js</file>
+        <file alias="v.js">lib/mathjax/jax/input/MathML/entities/v.js</file>
+        <file alias="w.js">lib/mathjax/jax/input/MathML/entities/w.js</file>
+        <file alias="x.js">lib/mathjax/jax/input/MathML/entities/x.js</file>
+        <file alias="y.js">lib/mathjax/jax/input/MathML/entities/y.js</file>
+        <file alias="z.js">lib/mathjax/jax/input/MathML/entities/z.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/output/SVG">
+        <file alias="config.js">lib/mathjax/jax/output/SVG/config.js</file>
+        <file alias="jax.js">lib/mathjax/jax/output/SVG/jax.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/output/NativeMML">
+        <file alias="config.js">lib/mathjax/jax/output/NativeMML/config.js</file>
+        <file alias="jax.js">lib/mathjax/jax/output/NativeMML/jax.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/output/HTML-CSS">
+        <file alias="config.js">lib/mathjax/jax/output/HTML-CSS/config.js</file>
+        <file alias="imageFonts.js">lib/mathjax/jax/output/HTML-CSS/imageFonts.js</file>
+        <file alias="jax.js">lib/mathjax/jax/output/HTML-CSS/jax.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/output/SVG/fonts">
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/fontdata.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Alphabets/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Arrows/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/DoubleStruck/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Latin/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Marks/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Misc/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Monospace/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/NonUnicode/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Normal/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Operators/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/SansSerif/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Shapes/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Size5/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Size6/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Symbols/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Asana-Math/Variants/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/fontdata.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Alphabets/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Arrows/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/DoubleStruck/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Latin/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Marks/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Misc/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Monospace/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/NonUnicode/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Normal/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Operators/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/SansSerif/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Shapes/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Size5/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Size6/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Symbols/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Variants/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/fontdata.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Alphabets/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Arrows/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/DoubleStruck/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Latin/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Marks/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Misc/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Monospace/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/NonUnicode/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Normal/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Operators/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/SansSerif/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Shapes/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Size5/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Size6/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Symbols/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Gyre-Termes/Variants/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/fontdata.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Alphabets/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Arrows/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/DoubleStruck/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Latin/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Marks/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Misc/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Monospace/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/NonUnicode/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Normal/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Operators/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/SansSerif/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Shapes/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Size5/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Size6/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Size7/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Symbols/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Latin-Modern/Variants/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/fontdata.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Alphabets/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Arrows/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Marks/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/NonUnicode/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Normal/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Operators/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Shapes/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Size5/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Symbols/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/Neo-Euler/Variants/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/fontdata.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Alphabets/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Alphabets/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Alphabets/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Alphabets/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Arrows/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Arrows/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/DoubleStruck/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/DoubleStruck/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/DoubleStruck/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/DoubleStruck/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Fraktur/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Latin/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Latin/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Latin/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Latin/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Main/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Main/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Main/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Marks/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Marks/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Marks/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Marks/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Misc/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Misc/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Misc/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Misc/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Monospace/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Normal/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Normal/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Normal/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Operators/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Operators/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/SansSerif/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/SansSerif/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/SansSerif/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/SansSerif/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Script/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Script/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Shapes/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Shapes/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Shapes/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Size5/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Symbols/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Symbols/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Variants/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Variants/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Variants/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/STIX-Web/Variants/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/fontdata.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/Arrows.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/BoxDrawing.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/Dingbats.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/EnclosedAlphanum.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/GeneralPunctuation.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/GeometricShapes.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/GreekAndCoptic.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/Latin1Supplement.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/LatinExtendedA.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/LetterlikeSymbols.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/MathOperators.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/MiscMathSymbolsB.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/MiscSymbols.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/MiscTechnical.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/PUA.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/SpacingModLetters.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/AMS/Regular/SuppMathOperators.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Caligraphic/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Caligraphic/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Fraktur/Bold/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Fraktur/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Fraktur/Bold/Other.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Fraktur/Bold/PUA.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Fraktur/Regular/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Fraktur/Regular/Other.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Fraktur/Regular/PUA.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/Arrows.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/CombDiactForSymbols.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/GeneralPunctuation.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/GeometricShapes.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/GreekAndCoptic.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/Latin1Supplement.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/LatinExtendedA.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/LatinExtendedB.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/LetterlikeSymbols.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/MathOperators.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/MiscMathSymbolsA.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/MiscSymbols.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/MiscTechnical.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/SpacingModLetters.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/SupplementalArrowsA.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Bold/SuppMathOperators.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Italic/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Italic/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Italic/GeneralPunctuation.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Italic/GreekAndCoptic.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Italic/LatinExtendedA.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Italic/LatinExtendedB.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Italic/LetterlikeSymbols.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Italic/MathOperators.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Regular/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Regular/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Regular/GeometricShapes.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Regular/GreekAndCoptic.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Regular/LatinExtendedA.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Regular/LatinExtendedB.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Regular/LetterlikeSymbols.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Regular/MathOperators.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Regular/MiscSymbols.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Regular/SpacingModLetters.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Main/Regular/SuppMathOperators.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Math/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Math/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Bold/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Bold/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Bold/Other.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Italic/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Italic/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Italic/Other.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Regular/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Regular/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Regular/Other.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Script/Regular/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Typewriter/Regular/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Typewriter/Regular/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Typewriter/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/SVG/fonts/TeX/Typewriter/Regular/Other.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/output/SVG/autoload">
+        <file alias="annotation-xml.js">lib/mathjax/jax/output/SVG/autoload/annotation-xml.js</file>
+        <file alias="maction.js">lib/mathjax/jax/output/SVG/autoload/maction.js</file>
+        <file alias="menclose.js">lib/mathjax/jax/output/SVG/autoload/menclose.js</file>
+        <file alias="mglyph.js">lib/mathjax/jax/output/SVG/autoload/mglyph.js</file>
+        <file alias="mmultiscripts.js">lib/mathjax/jax/output/SVG/autoload/mmultiscripts.js</file>
+        <file alias="ms.js">lib/mathjax/jax/output/SVG/autoload/ms.js</file>
+        <file alias="mtable.js">lib/mathjax/jax/output/SVG/autoload/mtable.js</file>
+        <file alias="multiline.js">lib/mathjax/jax/output/SVG/autoload/multiline.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/output/HTML-CSS/autoload">
+        <file alias="annotation-xml.js">lib/mathjax/jax/output/HTML-CSS/autoload/annotation-xml.js</file>
+        <file alias="maction.js">lib/mathjax/jax/output/HTML-CSS/autoload/maction.js</file>
+        <file alias="menclose.js">lib/mathjax/jax/output/HTML-CSS/autoload/menclose.js</file>
+        <file alias="mglyph.js">lib/mathjax/jax/output/HTML-CSS/autoload/mglyph.js</file>
+        <file alias="mmultiscripts.js">lib/mathjax/jax/output/HTML-CSS/autoload/mmultiscripts.js</file>
+        <file alias="ms.js">lib/mathjax/jax/output/HTML-CSS/autoload/ms.js</file>
+        <file alias="mtable.js">lib/mathjax/jax/output/HTML-CSS/autoload/mtable.js</file>
+        <file alias="multiline.js">lib/mathjax/jax/output/HTML-CSS/autoload/multiline.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/output/HTML-CSS/fonts">
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/fontdata.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Alphabets/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Arrows/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/DoubleStruck/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Latin/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Marks/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Misc/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Monospace/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/NonUnicode/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Normal/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Operators/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/SansSerif/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Shapes/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Size5/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Size6/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Symbols/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Asana-Math/Variants/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/fontdata.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Alphabets/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Arrows/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/DoubleStruck/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Latin/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Marks/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Misc/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Monospace/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/NonUnicode/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Normal/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Operators/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/SansSerif/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Shapes/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Size5/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Size6/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Symbols/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Variants/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/fontdata.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Alphabets/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Arrows/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/DoubleStruck/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Latin/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Marks/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Misc/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Monospace/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/NonUnicode/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Normal/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Operators/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/SansSerif/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Shapes/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Size5/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Size6/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Symbols/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Gyre-Termes/Variants/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/fontdata.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Alphabets/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Arrows/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/DoubleStruck/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Latin/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Marks/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Misc/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Monospace/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/NonUnicode/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Normal/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Operators/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/SansSerif/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Shapes/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Size5/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Size6/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Size7/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Symbols/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Latin-Modern/Variants/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/fontdata.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Alphabets/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Arrows/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Marks/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/NonUnicode/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Normal/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Operators/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Shapes/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Size5/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Symbols/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/Neo-Euler/Variants/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/fontdata.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/Arrows.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/BBBold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/BoxDrawing.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/Dingbats.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/EnclosedAlphanum.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/GeneralPunctuation.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/GeometricShapes.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/GreekAndCoptic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/Latin1Supplement.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/LatinExtendedA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/LetterlikeSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/MathOperators.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/MiscMathSymbolsB.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/MiscSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/MiscTechnical.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/PUA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/SpacingModLetters.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/SuppMathOperators.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Caligraphic/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Caligraphic/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Fraktur/Bold/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Fraktur/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Fraktur/Bold/Other.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Fraktur/Bold/PUA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Fraktur/Regular/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Fraktur/Regular/Other.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Fraktur/Regular/PUA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Greek/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Greek/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Greek/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Greek/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/Arrows.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/CombDiactForSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/GeneralPunctuation.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/GeometricShapes.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/Latin1Supplement.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/LatinExtendedA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/LatinExtendedB.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/LetterlikeSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/MathOperators.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/MiscMathSymbolsA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/MiscSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/MiscTechnical.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/SpacingModLetters.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/SupplementalArrowsA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/SuppMathOperators.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Italic/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Italic/GeneralPunctuation.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Italic/Latin1Supplement.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Italic/LetterlikeSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Regular/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Regular/GeometricShapes.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Regular/MiscSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Main/Regular/SpacingModLetters.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Math/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Math/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/SansSerif/Bold/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/SansSerif/Bold/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/SansSerif/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/SansSerif/Bold/Other.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/SansSerif/Italic/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/SansSerif/Italic/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/SansSerif/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/SansSerif/Italic/Other.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/SansSerif/Regular/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/SansSerif/Regular/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/SansSerif/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/SansSerif/Regular/Other.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Script/Regular/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Script/Regular/Other.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Typewriter/Regular/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Typewriter/Regular/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Typewriter/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/Typewriter/Regular/Other.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/WinChrome/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/WinIE6/Regular/AMS.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/WinIE6/Regular/Bold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/TeX/WinIE6/Regular/Main.js</file>
+    </qresource>
+    <qresource prefix="/scripts/jax/output/HTML-CSS/fonts/STIX">
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/fontdata-1.0.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/fontdata-beta.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/fontdata-extra.js</file>
+        <file alias="fontdata.js">lib/mathjax/jax/output/HTML-CSS/fonts/STIX/fontdata.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/AlphaPresentForms.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/Arrows.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/BBBold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/BoldFraktur.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/BoxDrawing.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/CombDiactForSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/ControlPictures.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/CurrencySymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/Cyrillic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/EnclosedAlphanum.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/GeneralPunctuation.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/GeometricShapes.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/GreekAndCoptic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/GreekBold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/GreekSSBold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/IPAExtensions.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/Latin1Supplement.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/LatinExtendedA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/LatinExtendedAdditional.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/LatinExtendedB.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/LatinExtendedD.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/LetterlikeSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/MathBold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/MathOperators.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/MathSSBold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/MiscMathSymbolsA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/MiscMathSymbolsB.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/MiscSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/MiscTechnical.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/NumberForms.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/PhoneticExtensions.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/SpacingModLetters.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/SuperAndSubscripts.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Bold/SuppMathOperators.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/AlphaPresentForms.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/BasicLatin.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/BoxDrawing.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/CombDiactForSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/ControlPictures.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/CurrencySymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/Cyrillic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/EnclosedAlphanum.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/GeneralPunctuation.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/GreekAndCoptic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/GreekBoldItalic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/GreekSSBoldItalic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/IPAExtensions.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/Latin1Supplement.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/LatinExtendedA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/LatinExtendedAdditional.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/LatinExtendedB.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/LetterlikeSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/MathBoldItalic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/MathBoldScript.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/MathOperators.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/MathSSItalicBold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/BoldItalic/SpacingModLetters.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/AlphaPresentForms.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/BoxDrawing.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/CombDiactForSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/ControlPictures.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/CurrencySymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/Cyrillic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/EnclosedAlphanum.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/GeneralPunctuation.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/GreekAndCoptic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/GreekItalic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/ij.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/IPAExtensions.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/Latin1Supplement.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/LatinExtendedA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/LatinExtendedAdditional.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/LatinExtendedB.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/LetterlikeSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/MathItalic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/MathOperators.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/MathScript.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/MathSSItalic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Italic/SpacingModLetters.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/AlphaPresentForms.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/Arrows.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/BBBold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/BlockElements.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/BoldFraktur.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/BoxDrawing.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/CJK.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/CombDiacritMarks.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/CombDiactForSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/ControlPictures.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/CurrencySymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/Cyrillic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/Dingbats.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/EnclosedAlphanum.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/Fraktur.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/GeneralPunctuation.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/GeometricShapes.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/GreekAndCoptic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/GreekBold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/GreekBoldItalic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/GreekItalic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/GreekSSBold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/GreekSSBoldItalic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/Hiragana.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/ij.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/IPAExtensions.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/Latin1Supplement.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/LatinExtendedA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/LatinExtendedAdditional.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/LatinExtendedB.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/LatinExtendedD.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/LetterlikeSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathBold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathBoldItalic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathBoldScript.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathItalic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathOperators.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathScript.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathSS.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathSSBold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathSSItalic.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathSSItalicBold.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathTT.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MiscMathSymbolsA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MiscMathSymbolsB.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MiscSymbols.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MiscSymbolsAndArrows.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MiscTechnical.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/NumberForms.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/PhoneticExtensions.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/SpacingModLetters.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/Specials.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/SuperAndSubscripts.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/SupplementalArrowsA.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/SupplementalArrowsB.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/General/Regular/SuppMathOperators.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsD/Bold/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsD/Regular/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsD/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsSm/Bold/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsSm/Regular/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsSm/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsUp/Bold/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsUp/Regular/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsUp/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsUpD/Bold/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsUpD/Regular/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsUpD/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsUpSm/Bold/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsUpSm/Regular/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/IntegralsUpSm/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/NonUnicode/Bold/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/NonUnicode/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/NonUnicode/Bold/PrivateUse.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/NonUnicode/BoldItalic/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/NonUnicode/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/NonUnicode/BoldItalic/PrivateUse.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/NonUnicode/Italic/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/NonUnicode/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/NonUnicode/Italic/PrivateUse.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/NonUnicode/Regular/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/NonUnicode/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/NonUnicode/Regular/PrivateUse.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeFiveSym/Regular/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeFiveSym/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeFourSym/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeFourSym/Regular/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeFourSym/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeOneSym/Bold/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeOneSym/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeOneSym/Regular/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeOneSym/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeThreeSym/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeThreeSym/Regular/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeThreeSym/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeTwoSym/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeTwoSym/Regular/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/SizeTwoSym/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/Variants/Bold/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/Variants/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/Variants/Regular/All.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX/Variants/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata-extra.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Alphabets/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Alphabets/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Alphabets/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Alphabets/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Arrows/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Arrows/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/DoubleStruck/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/DoubleStruck/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/DoubleStruck/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/DoubleStruck/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Fraktur/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Fraktur/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Latin/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Latin/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Latin/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Latin/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Main/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Marks/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Marks/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Marks/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Marks/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Misc/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Misc/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Misc/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Misc/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Monospace/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Normal/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Normal/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Normal/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Operators/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Operators/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/SansSerif/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/SansSerif/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/SansSerif/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/SansSerif/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Script/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Script/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Script/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Shapes/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Shapes/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Shapes/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Size1/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Size2/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Size3/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Size4/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Size5/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Symbols/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Symbols/Regular/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Variants/Bold/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Variants/BoldItalic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Variants/Italic/Main.js</file>
+        <file>lib/mathjax/jax/output/HTML-CSS/fonts/STIX-Web/Variants/Regular/Main.js</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file alias="icon.icns">icon.icns</file>
+        <file alias="icon.ico">icon.ico</file>
+        <file alias="tex.png">tex.png</file>
+    </qresource>
+    <qresource prefix="/documents">
+        <file alias="Manual.pdf">res/Manual.pdf</file>
+    </qresource>
+</RCC>

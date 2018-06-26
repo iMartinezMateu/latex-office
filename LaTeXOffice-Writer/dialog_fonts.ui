@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_Fonts</class>
+ <widget class="QDialog" name="Dialog_Fonts">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>377</width>
+    <height>284</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>377</width>
+    <height>284</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>377</width>
+    <height>284</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>LaTeX Office Writer</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="labelFontName">
+     <property name="text">
+      <string>Font name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QComboBox" name="comboBoxFontSize">
+     <item>
+      <property name="text">
+       <string>10pt</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>11pt</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>12pt</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="labelFontSize">
+     <property name="text">
+      <string>Font Size</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLabel" name="labelLineSpread">
+     <property name="text">
+      <string>Line Spread</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QComboBox" name="comboBoxLineSpread">
+     <item>
+      <property name="text">
+       <string>One line spacing</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>One and a half line spacing</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Double line spacing</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="1" column="0" rowspan="3" colspan="2">
+    <widget class="QListWidget" name="listWidgetFonts">
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <item>
+      <property name="text">
+       <string>Computer Modern Roman Serif</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Latin Modern Roman Serif</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bookman Serif</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Charter Serif</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>New Century Schoolbook Serif</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Palatino Serif</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Times Serif</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Computer Modern Sans Serif</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Latin Modern Sans Serif</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Avant Garde Sans Serif</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Helvetica Sans Serif</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Computer Modern Typewriter</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Latin Modern Typewriter</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Courier Typewriter</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="6" column="0" colspan="2">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog_Fonts</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog_Fonts</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

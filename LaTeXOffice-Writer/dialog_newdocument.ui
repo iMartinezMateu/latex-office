@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_NewDocument</class>
+ <widget class="QDialog" name="Dialog_NewDocument">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>LaTeX Office Writer</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="1" colspan="2">
+    <widget class="QLineEdit" name="lineEditDocumentDirectory">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QPushButton" name="pushButtonBrowseDirectory">
+     <property name="text">
+      <string>Browse...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="labelDocumentDirectory">
+     <property name="text">
+      <string>Document Directory</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="4">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Help|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2" colspan="2">
+    <widget class="QGroupBox" name="groupBoxDocumentBeginning">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>370</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>Document Beginning</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="lineEditDocumentDate"/>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="lineEditDocumentAuthor"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="labelDocumentDate">
+        <property name="text">
+         <string>Document Date</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lineEditDocumentTitle"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="labelDocumentAuthor">
+        <property name="text">
+         <string>Document Author</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="labelDocumentTitle">
+        <property name="text">
+         <string>Document Title</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="2" colspan="2">
+    <widget class="QGroupBox" name="groupBoxDocumentAppearance">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>Document Appearance</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="5">
+       <widget class="QPushButton" name="pushButtonClearStyleFile">
+        <property name="text">
+         <string>Clear</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="6">
+       <widget class="QLineEdit" name="lineEditStyleFile">
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="5">
+       <widget class="QPushButton" name="pushButtonClearClassFile">
+        <property name="text">
+         <string>Clear</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0" colspan="6">
+       <widget class="QLineEdit" name="lineEditClassFile">
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="4">
+       <widget class="QPushButton" name="pushButtonBrowseClassFile">
+        <property name="text">
+         <string>Browse...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QPushButton" name="pushButtonBrowseStyleFile">
+        <property name="text">
+         <string>Browse...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0" colspan="4">
+       <widget class="QLabel" name="labelClass">
+        <property name="text">
+         <string>Class File</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="4">
+       <widget class="QLabel" name="labelStyle">
+        <property name="text">
+         <string>Style File</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0" rowspan="2" colspan="2">
+    <widget class="QGroupBox" name="groupBoxPreamble">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>345</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>Preamble</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="1" column="1">
+       <widget class="QComboBox" name="comboBoxDocumentLanguage">
+        <item>
+         <property name="text">
+          <string>Arabic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bulgarian</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Russian</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ukrainian</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Chinese</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Czech</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>English</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Finnish</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>French</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>German</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Greek</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Icelandic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Faroese</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Italian</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Korean</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Persian</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Polish</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Portuguese</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Slovak</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Spanish</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tibetan</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="labelDocumentTypeset">
+        <property name="text">
+         <string>Document Typeset</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="labelDocumentLayout">
+        <property name="text">
+         <string>Document Layout</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="labelDocumentLanguage">
+        <property name="text">
+         <string>Document Language</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="labelDocumentType">
+        <property name="text">
+         <string>Document Type</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="labelPaperSize">
+        <property name="text">
+         <string>Paper Size</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QComboBox" name="comboBoxPaperSize">
+        <item>
+         <property name="text">
+          <string>A4 Paper Size</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Letter Paper Size</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>A5 Paper Size</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>B5 Paper Size</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Executive Paper Size</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Legal Paper Size</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QComboBox" name="comboBoxDocumentLayout">
+        <item>
+         <property name="text">
+          <string>Vertical</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Horizontal</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QComboBox" name="comboBoxDocumentTypeset">
+        <item>
+         <property name="text">
+          <string>One Column</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Two Column</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="comboBoxFontSize">
+        <item>
+         <property name="text">
+          <string>Small [10 pt]</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Normal [11 pt]</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Big [12 pt]</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="labelFontSize">
+        <property name="text">
+         <string>Font Size</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="comboBoxDocumentType">
+        <item>
+         <property name="text">
+          <string>Book</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Article</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Report</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Memoir</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Letter</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Proceedings</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="labelPaperLayout">
+        <property name="text">
+         <string>Paper Layout</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QComboBox" name="comboBoxPaperLayout">
+        <item>
+         <property name="text">
+          <string>Two Sided</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>One Sided</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="labelChapterLayout">
+        <property name="text">
+         <string>Chapter Layout</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QComboBox" name="comboBoxChapterLayout">
+        <item>
+         <property name="text">
+          <string>Any page</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Odd pages</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>comboBoxDocumentType</tabstop>
+  <tabstop>comboBoxDocumentLanguage</tabstop>
+  <tabstop>comboBoxFontSize</tabstop>
+  <tabstop>comboBoxPaperSize</tabstop>
+  <tabstop>comboBoxDocumentTypeset</tabstop>
+  <tabstop>comboBoxDocumentLayout</tabstop>
+  <tabstop>lineEditDocumentTitle</tabstop>
+  <tabstop>lineEditDocumentAuthor</tabstop>
+  <tabstop>lineEditDocumentDate</tabstop>
+  <tabstop>lineEditDocumentDirectory</tabstop>
+  <tabstop>pushButtonBrowseDirectory</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog_NewDocument</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>257</x>
+     <y>337</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog_NewDocument</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>325</x>
+     <y>337</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

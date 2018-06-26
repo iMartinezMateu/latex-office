@@ -1,0 +1,2308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_Bibliography</class>
+ <widget class="QDialog" name="Dialog_Bibliography">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>908</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>908</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>908</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>LaTeX Office Writer</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Help|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tabArticle">
+      <attribute name="title">
+       <string>Article</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBoxArticleNewEntry">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>New entry</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditArticleTitle"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelArticleYear">
+            <property name="text">
+             <string>Year</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelArticlePages">
+            <property name="text">
+             <string>Pages</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelArticleVolume">
+            <property name="text">
+             <string>Volume</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelArticleNumber">
+            <property name="text">
+             <string>Number</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditArticleID"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelArticleTitle">
+            <property name="text">
+             <string>Title</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelArticleJournal">
+            <property name="text">
+             <string>Journal</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelArticleID">
+            <property name="text">
+             <string>Identificator</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditArticleAuthor"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelArticleAuthor">
+            <property name="text">
+             <string>Author</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEditArticleYear">
+            <property name="maxLength">
+             <number>4</number>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="5">
+           <widget class="QPushButton" name="pushButtonArticleAddEntry">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Add Entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="5">
+           <widget class="QLineEdit" name="lineEditArticlePages"/>
+          </item>
+          <item row="2" column="5">
+           <widget class="QLineEdit" name="lineEditArticleNumber"/>
+          </item>
+          <item row="1" column="5">
+           <widget class="QLineEdit" name="lineEditArticleVolume"/>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLineEdit" name="lineEditArticleJournal"/>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="pushButtonArticleReset">
+            <property name="text">
+             <string>Reset</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBoxArticleCurrentEntries">
+         <property name="title">
+          <string>Current entries</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0" colspan="2">
+           <widget class="QTableWidget" name="tableWidgetArticles">
+            <property name="editTriggers">
+             <set>QAbstractItemView::NoEditTriggers</set>
+            </property>
+            <property name="selectionMode">
+             <enum>QAbstractItemView::SingleSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderStretchLastSection">
+             <bool>false</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Identificator</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Author</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Title</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Year</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Journal</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Volume</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Number</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Pages</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="2">
+           <widget class="QPushButton" name="pushButtonArticleDelete">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Delete entry</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabBook">
+      <attribute name="title">
+       <string>Book</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_7">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBoxBookNewEntry">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>New entry</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditBookTitle"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelBookYear">
+            <property name="text">
+             <string>Year</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelBookEdition">
+            <property name="text">
+             <string>Edition</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelBookVolume">
+            <property name="text">
+             <string>Volume</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelBookNumber">
+            <property name="text">
+             <string>Number</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditBookID"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelBookTitle">
+            <property name="text">
+             <string>Title</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelBookPublisher">
+            <property name="text">
+             <string>Publisher</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelBookID">
+            <property name="text">
+             <string>Identificator</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditBookAuthor"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelBookAuthor">
+            <property name="text">
+             <string>Author</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEditBookYear">
+            <property name="maxLength">
+             <number>4</number>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="5">
+           <widget class="QPushButton" name="pushButtonBookAddEntry">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Add Entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="5">
+           <widget class="QLineEdit" name="lineEditBookEdition"/>
+          </item>
+          <item row="2" column="5">
+           <widget class="QLineEdit" name="lineEditBookNumber"/>
+          </item>
+          <item row="1" column="5">
+           <widget class="QLineEdit" name="lineEditBookVolume"/>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLineEdit" name="lineEditBookPublisher"/>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="pushButtonBookReset">
+            <property name="text">
+             <string>Reset</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBoxBookCurrentEntries">
+         <property name="title">
+          <string>Current entries</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButtonBookDelete">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Delete entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QTableWidget" name="tableWidgetBooks">
+            <property name="selectionMode">
+             <enum>QAbstractItemView::SingleSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderStretchLastSection">
+             <bool>false</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Identificator</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Author</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Title</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Year</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Publisher</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Volume</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Number</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Edition</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabBooklet">
+      <attribute name="title">
+       <string>Booklet</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_10">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBoxBookletNewEntry">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>New entry</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_9">
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditBookletTitle"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelBookletYear">
+            <property name="text">
+             <string>Year</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelBookletHowPublished">
+            <property name="text">
+             <string>How Published</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelBookletMonth">
+            <property name="text">
+             <string>Month</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelBookletNumber">
+            <property name="text">
+             <string>Note</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditBookletID"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelBookletTitle">
+            <property name="text">
+             <string>Title</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelBookletAddress">
+            <property name="text">
+             <string>Address</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelBookletID">
+            <property name="text">
+             <string>Identificator</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditBookletAuthor"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelBookletAuthor">
+            <property name="text">
+             <string>Author</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEditBookletYear">
+            <property name="maxLength">
+             <number>4</number>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="5">
+           <widget class="QPushButton" name="pushButtonBookletAddEntry">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Add Entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="5">
+           <widget class="QLineEdit" name="lineEditBookletHowPublished"/>
+          </item>
+          <item row="2" column="5">
+           <widget class="QLineEdit" name="lineEditBookletNote"/>
+          </item>
+          <item row="1" column="5">
+           <widget class="QLineEdit" name="lineEditBookletMonth"/>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLineEdit" name="lineEditBookletAddress"/>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="pushButtonBookletReset">
+            <property name="text">
+             <string>Reset</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBoxBookletCurrentEntries">
+         <property name="title">
+          <string>Current entries</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_8">
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButtonBookletDelete">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Delete entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QTableWidget" name="tableWidgetBooklets">
+            <property name="selectionMode">
+             <enum>QAbstractItemView::SingleSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderStretchLastSection">
+             <bool>false</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Identificator</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Author</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Title</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Year</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Address</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Month</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Note</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>How Published</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabInbook">
+      <attribute name="title">
+       <string>Inbook</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_13">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBoxInbookNewEntry">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>New entry</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_12">
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditInbookTitle"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelInbookYear">
+            <property name="text">
+             <string>Year</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelInbookPublisher">
+            <property name="text">
+             <string>Publisher</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelInbookChapter">
+            <property name="text">
+             <string>Chapter</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelInbookPages">
+            <property name="text">
+             <string>Pages</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditInbookIdentificator"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelInbookTitle">
+            <property name="text">
+             <string>Title</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelInbookEditor">
+            <property name="text">
+             <string>Editor</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelInbookID">
+            <property name="text">
+             <string>Identificator</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditInbookAuthor"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelInbookAuthor">
+            <property name="text">
+             <string>Author</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEditInbookYear">
+            <property name="maxLength">
+             <number>4</number>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="5">
+           <widget class="QPushButton" name="pushButtonInbookAddEntry">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Add Entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="5">
+           <widget class="QLineEdit" name="lineEditInbookPublisher"/>
+          </item>
+          <item row="2" column="5">
+           <widget class="QLineEdit" name="lineEditInbookPages"/>
+          </item>
+          <item row="1" column="5">
+           <widget class="QLineEdit" name="lineEditInbookChapter"/>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLineEdit" name="lineEditInbookAddress"/>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="pushButtonInbookReset">
+            <property name="text">
+             <string>Reset</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBoxInbookCurrentEntries">
+         <property name="title">
+          <string>Current entries</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_11">
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButtonInbookDelete">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Delete entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QTableWidget" name="tableWidgetInbooks">
+            <property name="selectionMode">
+             <enum>QAbstractItemView::SingleSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderStretchLastSection">
+             <bool>false</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Identificator</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Author</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Title</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Year</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Editor</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Chapter</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Pages</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Publisher</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabIncollection">
+      <attribute name="title">
+       <string>Incollection</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_16">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBoxIncollectionNewEntry">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>New entry</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_15">
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditIncollectionTitle"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelIncollectionYear">
+            <property name="text">
+             <string>Year</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelIncollectionEdition">
+            <property name="text">
+             <string>Edition</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelIncollectionPublisher">
+            <property name="text">
+             <string>Publisher</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelIncollectionChapter">
+            <property name="text">
+             <string>Chapter</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditIncollectionIdentificator"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelIncollectionTitle">
+            <property name="text">
+             <string>Title</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelIncollectionBookTitle">
+            <property name="text">
+             <string>Book Title</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelIncollectionID">
+            <property name="text">
+             <string>Identificator</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditIncollectionAuthor"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelIncollectionAuthor">
+            <property name="text">
+             <string>Author</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEditIncollectionYear">
+            <property name="maxLength">
+             <number>4</number>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="5">
+           <widget class="QPushButton" name="pushButtonIncollectionAddEntry">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Add Entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="5">
+           <widget class="QLineEdit" name="lineEditIncollectionEdition"/>
+          </item>
+          <item row="2" column="5">
+           <widget class="QLineEdit" name="lineEditIncollectionChapter"/>
+          </item>
+          <item row="1" column="5">
+           <widget class="QLineEdit" name="lineEditIncollectionPublisher"/>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLineEdit" name="lineEditIncollectionBookTitle"/>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="pushButtonIncollectionReset">
+            <property name="text">
+             <string>Reset</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBoxIncollectionCurrentEntries">
+         <property name="title">
+          <string>Current entries</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_14">
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButtonIncollectionDelete">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Delete entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QTableWidget" name="tableWidgetIncollections">
+            <property name="selectionMode">
+             <enum>QAbstractItemView::SingleSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderStretchLastSection">
+             <bool>false</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Identificator</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Author</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Title</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Year</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Book Title</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Publisher</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Chapter</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Edition</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabInproceedings">
+      <attribute name="title">
+       <string>Inproceedings</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_19">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBoxInproceedingsNewEntry">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>New entry</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_17">
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditInproceedingsTitle"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelInproceedingsTitle">
+            <property name="text">
+             <string>Title</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="5">
+           <widget class="QPushButton" name="pushButtonInproceedingsAddEntry">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Add Entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="5">
+           <widget class="QLineEdit" name="lineEditInproceedingsPublisher"/>
+          </item>
+          <item row="3" column="5">
+           <widget class="QLineEdit" name="lineEditInproceedingsOrganization"/>
+          </item>
+          <item row="5" column="2">
+           <widget class="QPushButton" name="pushButtonInproceedingsReset">
+            <property name="text">
+             <string>Reset</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelInproceedingsID">
+            <property name="text">
+             <string>Identificator</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelInproceedingsPublisher">
+            <property name="text">
+             <string>Publisher</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelInproceedingsOrganization">
+            <property name="text">
+             <string>Organization</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditInproceedingsID"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelInproceedingsAuthor">
+            <property name="text">
+             <string>Author</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditInproceedingsAuthor"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelInproceedingsEditor">
+            <property name="text">
+             <string>Editor</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="5">
+           <widget class="QLineEdit" name="lineEditInproceedingsEditor"/>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLineEdit" name="lineEditInproceedingsBookTitle"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelInproceedingsBookTitle">
+            <property name="text">
+             <string>Book Title</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelInproceedingsYear">
+            <property name="text">
+             <string>Year</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEditInproceedingsYear">
+            <property name="maxLength">
+             <number>4</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBoxInproceedingsCurrentEntries">
+         <property name="title">
+          <string>Current entries</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_18">
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButtonInproceedingsDelete">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Delete entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QTableWidget" name="tableWidgetInproceedings">
+            <property name="selectionMode">
+             <enum>QAbstractItemView::SingleSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderStretchLastSection">
+             <bool>false</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Identificator</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Author</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Title</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Year</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Book Title</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Editor</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Publisher</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Organization</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabManual">
+      <attribute name="title">
+       <string>Manual</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_22">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBoxManualNewEntry">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>New entry</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_20">
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditManualsAuthor"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelManualsYear">
+            <property name="text">
+             <string>Year</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelManualsNote">
+            <property name="text">
+             <string>Note</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelManualsMonth">
+            <property name="text">
+             <string>Month</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelManualsOrganization">
+            <property name="text">
+             <string>Organization</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditManualsID"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelManualsAuthor">
+            <property name="text">
+             <string>Author</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelManualsEdition">
+            <property name="text">
+             <string>Edition</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelManualsID">
+            <property name="text">
+             <string>Identificator</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditManualsTitle"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelManualsTitle">
+            <property name="text">
+             <string>Title</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEditManualsYear">
+            <property name="maxLength">
+             <number>4</number>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="5">
+           <widget class="QPushButton" name="pushButtonManualsAddEntry">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Add Entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="5">
+           <widget class="QLineEdit" name="lineEditManualsNote"/>
+          </item>
+          <item row="2" column="5">
+           <widget class="QLineEdit" name="lineEditManualsOrganization"/>
+          </item>
+          <item row="1" column="5">
+           <widget class="QLineEdit" name="lineEditManualsMonth"/>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLineEdit" name="lineEditManualsEdition"/>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="pushButtonManualsReset">
+            <property name="text">
+             <string>Reset</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBoxManualCurrentEntries">
+         <property name="title">
+          <string>Current entries</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_21">
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButtonManualDelete">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Delete entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QTableWidget" name="tableWidgetManuals">
+            <property name="selectionMode">
+             <enum>QAbstractItemView::SingleSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderStretchLastSection">
+             <bool>false</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Identificator</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Title</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Author</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Year</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Edition</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Month</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Organization</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Note</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabThesis">
+      <attribute name="title">
+       <string>Thesis</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_25">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBoxThesisNewEntry">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>New entry</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_24">
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditThesisAuthor"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelThesisYear">
+            <property name="text">
+             <string>Year</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelThesisSchool">
+            <property name="text">
+             <string>School</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelThesisAddress">
+            <property name="text">
+             <string>Address</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelThesisMonth">
+            <property name="text">
+             <string>Month</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditThesisID"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelThesisAuthor">
+            <property name="text">
+             <string>Author</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelThesisType">
+            <property name="text">
+             <string>Type</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelThesisID">
+            <property name="text">
+             <string>Identificator</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditThesisTitle"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelThesisTitle">
+            <property name="text">
+             <string>Title</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEditThesisYear">
+            <property name="maxLength">
+             <number>4</number>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="5">
+           <widget class="QPushButton" name="pushButtonThesisAddEntry">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Add Entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="5">
+           <widget class="QLineEdit" name="lineEditThesisSchool"/>
+          </item>
+          <item row="2" column="5">
+           <widget class="QLineEdit" name="lineEditThesisMonth"/>
+          </item>
+          <item row="1" column="5">
+           <widget class="QLineEdit" name="lineEditThesisAddress"/>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLineEdit" name="lineEditThesisType"/>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="pushButtonThesisReset">
+            <property name="text">
+             <string>Reset</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBoxThesisCurrentEntries">
+         <property name="title">
+          <string>Current entries</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_23">
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButtonThesisDelete">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Delete entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QTableWidget" name="tableWidgetThesis">
+            <property name="selectionMode">
+             <enum>QAbstractItemView::SingleSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderStretchLastSection">
+             <bool>false</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Identificator</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Title</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Author</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Year</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Type</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Address</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Month</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Note</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabProceedings">
+      <attribute name="title">
+       <string>Proceedings</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_28">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBoxProceedingsNewEntry">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>New entry</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_26">
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditProceedingsPublisher"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelProceedingsYear">
+            <property name="text">
+             <string>Year</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelProceedingsNumber">
+            <property name="text">
+             <string>Number</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelProceedingsOrganization">
+            <property name="text">
+             <string>Organization</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelProceedingsVolume">
+            <property name="text">
+             <string>Volume</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditProceedingsIdentificator"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelProceedingsPublisher">
+            <property name="text">
+             <string>Publisher</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelProceedingsEditor">
+            <property name="text">
+             <string>Editor</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelProceedingsID">
+            <property name="text">
+             <string>Identificator</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditProceedingsTitle"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelProceedingsTitle">
+            <property name="text">
+             <string>Title</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEditProceedingsYear">
+            <property name="maxLength">
+             <number>4</number>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="5">
+           <widget class="QPushButton" name="pushButtonProceedingsAddEntry">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Add Entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="5">
+           <widget class="QLineEdit" name="lineEditProceedingsNumber"/>
+          </item>
+          <item row="2" column="5">
+           <widget class="QLineEdit" name="lineEditProceedingsVolume"/>
+          </item>
+          <item row="1" column="5">
+           <widget class="QLineEdit" name="lineEditProceedingsOrganization"/>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLineEdit" name="lineEditProceedingsEditor"/>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="pushButtonProceedingsReset">
+            <property name="text">
+             <string>Reset</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBoxProceedingsCurrentEntries">
+         <property name="title">
+          <string>Current entries</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_27">
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButtonProceedingsDelete">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Delete entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QTableWidget" name="tableWidgetProceedings">
+            <property name="selectionMode">
+             <enum>QAbstractItemView::SingleSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderStretchLastSection">
+             <bool>false</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Identificator</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Title</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Publisher</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Year</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Editor</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Organization</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Volume</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Number</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabReport">
+      <attribute name="title">
+       <string>Report</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_31">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBoxReportsNewEntry">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>New entry</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_29">
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelReportsID">
+            <property name="text">
+             <string>Identificator</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelReportsTitle">
+            <property name="text">
+             <string>Title</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEditReportsTitle"/>
+          </item>
+          <item row="6" column="2">
+           <widget class="QPushButton" name="pushButtonReportsReset">
+            <property name="text">
+             <string>Reset</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditReportsID"/>
+          </item>
+          <item row="6" column="5">
+           <widget class="QPushButton" name="pushButtonReportsAddEntry">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Add Entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="labelReportsInstitution">
+            <property name="text">
+             <string>Institution</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="lineEditReportsInstitution"/>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLineEdit" name="lineEditReportsYear">
+            <property name="inputMask">
+             <string/>
+            </property>
+            <property name="maxLength">
+             <number>4</number>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="labelReportsYear">
+            <property name="text">
+             <string>Year</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="2">
+           <widget class="QLabel" name="labelReportsNumber">
+            <property name="text">
+             <string>Number</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QLabel" name="labelReportsType">
+            <property name="text">
+             <string>Type</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelReportsAddress">
+            <property name="text">
+             <string>Address</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelReportsAuthor">
+            <property name="text">
+             <string>Author</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="5">
+           <widget class="QLineEdit" name="lineEditReportsNumber"/>
+          </item>
+          <item row="4" column="5">
+           <widget class="QLineEdit" name="lineEditReportsType"/>
+          </item>
+          <item row="3" column="5">
+           <widget class="QLineEdit" name="lineEditReportsAddress"/>
+          </item>
+          <item row="2" column="5">
+           <widget class="QLineEdit" name="lineEditReportsAuthor"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBoxReportsCurrentEntries">
+         <property name="title">
+          <string>Current entries</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_30">
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButtonReportsDelete">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Delete entry</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QTableWidget" name="tableWidgetReports">
+            <property name="selectionMode">
+             <enum>QAbstractItemView::SingleSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderStretchLastSection">
+             <bool>false</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Identificator</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Title</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Institution</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Year</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Address</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Type</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Number</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Month</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>lineEditArticleID</tabstop>
+  <tabstop>lineEditArticleAuthor</tabstop>
+  <tabstop>lineEditArticleTitle</tabstop>
+  <tabstop>lineEditArticleYear</tabstop>
+  <tabstop>lineEditArticleJournal</tabstop>
+  <tabstop>lineEditArticleVolume</tabstop>
+  <tabstop>lineEditArticleNumber</tabstop>
+  <tabstop>lineEditArticlePages</tabstop>
+  <tabstop>pushButtonArticleReset</tabstop>
+  <tabstop>pushButtonArticleAddEntry</tabstop>
+  <tabstop>tableWidgetArticles</tabstop>
+  <tabstop>pushButtonArticleDelete</tabstop>
+  <tabstop>lineEditBookID</tabstop>
+  <tabstop>lineEditBookAuthor</tabstop>
+  <tabstop>lineEditBookTitle</tabstop>
+  <tabstop>lineEditBookYear</tabstop>
+  <tabstop>lineEditBookPublisher</tabstop>
+  <tabstop>lineEditBookVolume</tabstop>
+  <tabstop>lineEditBookNumber</tabstop>
+  <tabstop>lineEditBookEdition</tabstop>
+  <tabstop>pushButtonBookReset</tabstop>
+  <tabstop>pushButtonBookAddEntry</tabstop>
+  <tabstop>tableWidgetBooks</tabstop>
+  <tabstop>pushButtonBookDelete</tabstop>
+  <tabstop>lineEditBookletID</tabstop>
+  <tabstop>lineEditBookletAuthor</tabstop>
+  <tabstop>lineEditBookletTitle</tabstop>
+  <tabstop>lineEditBookletYear</tabstop>
+  <tabstop>lineEditBookletAddress</tabstop>
+  <tabstop>lineEditBookletMonth</tabstop>
+  <tabstop>lineEditBookletNote</tabstop>
+  <tabstop>lineEditBookletHowPublished</tabstop>
+  <tabstop>pushButtonBookletReset</tabstop>
+  <tabstop>pushButtonBookletAddEntry</tabstop>
+  <tabstop>tableWidgetBooklets</tabstop>
+  <tabstop>pushButtonBookletDelete</tabstop>
+  <tabstop>lineEditInbookIdentificator</tabstop>
+  <tabstop>lineEditInbookAuthor</tabstop>
+  <tabstop>lineEditInbookTitle</tabstop>
+  <tabstop>lineEditInbookYear</tabstop>
+  <tabstop>lineEditInbookAddress</tabstop>
+  <tabstop>lineEditInbookChapter</tabstop>
+  <tabstop>lineEditInbookPages</tabstop>
+  <tabstop>lineEditInbookPublisher</tabstop>
+  <tabstop>pushButtonInbookReset</tabstop>
+  <tabstop>pushButtonInbookAddEntry</tabstop>
+  <tabstop>tableWidgetInbooks</tabstop>
+  <tabstop>pushButtonInbookDelete</tabstop>
+  <tabstop>lineEditIncollectionIdentificator</tabstop>
+  <tabstop>lineEditIncollectionAuthor</tabstop>
+  <tabstop>lineEditIncollectionTitle</tabstop>
+  <tabstop>lineEditIncollectionYear</tabstop>
+  <tabstop>lineEditIncollectionBookTitle</tabstop>
+  <tabstop>lineEditIncollectionPublisher</tabstop>
+  <tabstop>lineEditIncollectionChapter</tabstop>
+  <tabstop>lineEditIncollectionEdition</tabstop>
+  <tabstop>pushButtonIncollectionReset</tabstop>
+  <tabstop>pushButtonIncollectionAddEntry</tabstop>
+  <tabstop>tableWidgetIncollections</tabstop>
+  <tabstop>pushButtonIncollectionDelete</tabstop>
+  <tabstop>lineEditInproceedingsID</tabstop>
+  <tabstop>lineEditInproceedingsTitle</tabstop>
+  <tabstop>lineEditInproceedingsPublisher</tabstop>
+  <tabstop>lineEditInproceedingsOrganization</tabstop>
+  <tabstop>pushButtonInproceedingsReset</tabstop>
+  <tabstop>pushButtonInproceedingsAddEntry</tabstop>
+  <tabstop>tableWidgetInproceedings</tabstop>
+  <tabstop>pushButtonInproceedingsDelete</tabstop>
+  <tabstop>lineEditManualsID</tabstop>
+  <tabstop>lineEditManualsTitle</tabstop>
+  <tabstop>lineEditManualsAuthor</tabstop>
+  <tabstop>lineEditManualsYear</tabstop>
+  <tabstop>lineEditManualsEdition</tabstop>
+  <tabstop>lineEditManualsMonth</tabstop>
+  <tabstop>lineEditManualsOrganization</tabstop>
+  <tabstop>lineEditManualsNote</tabstop>
+  <tabstop>pushButtonManualsReset</tabstop>
+  <tabstop>pushButtonManualsAddEntry</tabstop>
+  <tabstop>tableWidgetManuals</tabstop>
+  <tabstop>pushButtonManualDelete</tabstop>
+  <tabstop>lineEditThesisID</tabstop>
+  <tabstop>lineEditThesisTitle</tabstop>
+  <tabstop>lineEditThesisAuthor</tabstop>
+  <tabstop>lineEditThesisYear</tabstop>
+  <tabstop>lineEditThesisType</tabstop>
+  <tabstop>lineEditThesisAddress</tabstop>
+  <tabstop>lineEditThesisMonth</tabstop>
+  <tabstop>lineEditThesisSchool</tabstop>
+  <tabstop>pushButtonThesisReset</tabstop>
+  <tabstop>pushButtonThesisAddEntry</tabstop>
+  <tabstop>tableWidgetThesis</tabstop>
+  <tabstop>pushButtonThesisDelete</tabstop>
+  <tabstop>lineEditProceedingsIdentificator</tabstop>
+  <tabstop>lineEditProceedingsTitle</tabstop>
+  <tabstop>lineEditProceedingsPublisher</tabstop>
+  <tabstop>lineEditProceedingsYear</tabstop>
+  <tabstop>lineEditProceedingsEditor</tabstop>
+  <tabstop>lineEditProceedingsOrganization</tabstop>
+  <tabstop>lineEditProceedingsVolume</tabstop>
+  <tabstop>lineEditProceedingsNumber</tabstop>
+  <tabstop>pushButtonProceedingsReset</tabstop>
+  <tabstop>pushButtonProceedingsAddEntry</tabstop>
+  <tabstop>tableWidgetProceedings</tabstop>
+  <tabstop>pushButtonProceedingsDelete</tabstop>
+  <tabstop>lineEditReportsID</tabstop>
+  <tabstop>lineEditReportsTitle</tabstop>
+  <tabstop>lineEditReportsInstitution</tabstop>
+  <tabstop>lineEditReportsYear</tabstop>
+  <tabstop>lineEditReportsAuthor</tabstop>
+  <tabstop>lineEditReportsAddress</tabstop>
+  <tabstop>lineEditReportsType</tabstop>
+  <tabstop>lineEditReportsNumber</tabstop>
+  <tabstop>pushButtonReportsReset</tabstop>
+  <tabstop>pushButtonReportsAddEntry</tabstop>
+  <tabstop>tableWidgetReports</tabstop>
+  <tabstop>pushButtonReportsDelete</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog_Bibliography</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog_Bibliography</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
