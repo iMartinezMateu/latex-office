@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Beamer</class>
+ <widget class="QMainWindow" name="Beamer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>LaTeX Office Beamer</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>10</y>
+      <width>171</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show previous slide</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>10</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Slide number</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>10</y>
+      <width>121</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show next slide</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionClose"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_As"/>
+    <addaction name="actionSave_As_PDF"/>
+    <addaction name="separator"/>
+    <addaction name="actionPrint_Preview"/>
+    <addaction name="actionPrint"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menu_Edit">
+    <property name="title">
+     <string>&amp;Edit</string>
+    </property>
+    <addaction name="actionUndo"/>
+    <addaction name="actionRedo"/>
+    <addaction name="separator"/>
+    <addaction name="actionCut"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+    <addaction name="separator"/>
+    <addaction name="actionFind"/>
+   </widget>
+   <widget class="QMenu" name="menu_Insert">
+    <property name="title">
+     <string>&amp;Insert</string>
+    </property>
+    <addaction name="actionEquation"/>
+    <addaction name="actionPicture"/>
+    <addaction name="actionTable"/>
+    <addaction name="actionCode_Asset"/>
+    <addaction name="separator"/>
+    <addaction name="actionTable_of_Contents"/>
+    <addaction name="actionBibliography"/>
+   </widget>
+   <widget class="QMenu" name="menuF_ormat">
+    <property name="title">
+     <string>F&amp;ormat</string>
+    </property>
+    <addaction name="actionFonts"/>
+   </widget>
+   <widget class="QMenu" name="menu_Share">
+    <property name="title">
+     <string>&amp;Share</string>
+    </property>
+    <addaction name="actionE_mail"/>
+    <addaction name="actionDropbox"/>
+    <addaction name="separator"/>
+    <addaction name="actionShareSettings"/>
+   </widget>
+   <widget class="QMenu" name="menu_Window">
+    <property name="title">
+     <string>&amp;Window</string>
+    </property>
+    <addaction name="actionMinimize_window"/>
+    <addaction name="actionMaximize"/>
+    <addaction name="actionFull_Screen"/>
+    <addaction name="actionMinimize_Screen"/>
+    <addaction name="separator"/>
+    <addaction name="actionHide_Primary_Toolbar"/>
+    <addaction name="actionHide_Secondary_Toolbar"/>
+    <addaction name="separator"/>
+    <addaction name="actionShow_LaTeX_Code"/>
+   </widget>
+   <widget class="QMenu" name="menu_Help">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="actionLaTeX_Office_Beamer_Help"/>
+    <addaction name="actionLaTeX_Office_on_the_Web"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout_LaTeX_Office_Beamer"/>
+    <addaction name="actionAbout_Qt"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionPackage_Document"/>
+    <addaction name="actionUnpackage_Document"/>
+    <addaction name="separator"/>
+    <addaction name="actionBibliography_Manager"/>
+    <addaction name="actionSpelling"/>
+    <addaction name="separator"/>
+    <addaction name="actionCompiler_Settings"/>
+    <addaction name="actionDictionary_Settings"/>
+    <addaction name="actionTheme_Settings"/>
+    <addaction name="actionTime_Machine_Settings"/>
+   </widget>
+   <widget class="QMenu" name="menuAssistive_Technologies">
+    <property name="title">
+     <string>Assistive Technologies</string>
+    </property>
+    <addaction name="actionDocument_Lock"/>
+    <addaction name="actionTime_Machine"/>
+    <addaction name="actionSmartKeys"/>
+    <addaction name="actionSmartRemote"/>
+    <addaction name="separator"/>
+    <addaction name="actionCopy_Protect"/>
+   </widget>
+   <widget class="QMenu" name="menuS_lide_Show">
+    <property name="title">
+     <string>S&amp;lide Show</string>
+    </property>
+    <addaction name="action_View_Show"/>
+   </widget>
+   <addaction name="menu_File"/>
+   <addaction name="menu_Edit"/>
+   <addaction name="menu_Insert"/>
+   <addaction name="menuF_ormat"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuS_lide_Show"/>
+   <addaction name="menuAssistive_Technologies"/>
+   <addaction name="menu_Share"/>
+   <addaction name="menu_Window"/>
+   <addaction name="menu_Help"/>
+  </widget>
+  <action name="actionNew">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/new.png</normaloff>:/images/menu/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;New...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/open.png</normaloff>:/images/menu/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Open...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Close</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/save.png</normaloff>:/images/menu/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Save &amp;As...</string>
+   </property>
+  </action>
+  <action name="actionDocument_Setup">
+   <property name="text">
+    <string>Document Setup...</string>
+   </property>
+  </action>
+  <action name="actionPrint_Preview">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/preview.png</normaloff>:/images/menu/preview.png</iconset>
+   </property>
+   <property name="text">
+    <string>Print Preview</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/print.png</normaloff>:/images/menu/print.png</iconset>
+   </property>
+   <property name="text">
+    <string>P&amp;rint...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>E&amp;xit</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/undo.png</normaloff>:/images/menu/undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Undo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/redo.png</normaloff>:/images/menu/redo.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Redo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Y</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/cut.png</normaloff>:/images/menu/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Cut</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/copy.png</normaloff>:/images/menu/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>C&amp;opy</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/paste.png</normaloff>:/images/menu/paste.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Paste</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionFind">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/search.png</normaloff>:/images/menu/search.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Find...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionBreak">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/break.png</normaloff>:/images/menu/break.png</iconset>
+   </property>
+   <property name="text">
+    <string>Page &amp;Break</string>
+   </property>
+  </action>
+  <action name="actionSymbol">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/symbol.png</normaloff>:/images/menu/symbol.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Symbol...</string>
+   </property>
+  </action>
+  <action name="actionEquation">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/equation.png</normaloff>:/images/toolbar/equation.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Equation...</string>
+   </property>
+  </action>
+  <action name="actionFootnote">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/footnote.png</normaloff>:/images/toolbar/footnote.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Footnote...</string>
+   </property>
+  </action>
+  <action name="actionPicture">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/picture.png</normaloff>:/images/menu/picture.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Picture...</string>
+   </property>
+  </action>
+  <action name="actionHyperlink">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/link.png</normaloff>:/images/menu/link.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Hyperlink..</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+K</string>
+   </property>
+  </action>
+  <action name="actionSpelling">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/spelling.png</normaloff>:/images/menu/spelling.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Spelling...</string>
+   </property>
+  </action>
+  <action name="actionLaTeX_Office_Beamer_Help">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/help.png</normaloff>:/images/menu/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>LaTeX Office Beamer &amp;Help</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+'</string>
+   </property>
+  </action>
+  <action name="actionAbout_LaTeX_Office_Beamer">
+   <property name="text">
+    <string>&amp;About LaTeX Office Beamer</string>
+   </property>
+  </action>
+  <action name="actionTable">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/table.png</normaloff>:/images/menu/table.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Table...</string>
+   </property>
+  </action>
+  <action name="actionBold">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/bold.png</normaloff>:/images/toolbar/bold.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bold</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionItalic">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/italic.png</normaloff>:/images/toolbar/italic.png</iconset>
+   </property>
+   <property name="text">
+    <string>Italic</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actionUnderline">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/underline.png</normaloff>:/images/toolbar/underline.png</iconset>
+   </property>
+   <property name="text">
+    <string>Underline</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+U</string>
+   </property>
+  </action>
+  <action name="actionStrikeThrough">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/strikethrough.png</normaloff>:/images/toolbar/strikethrough.png</iconset>
+   </property>
+   <property name="text">
+    <string>StrikeThrough</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionSmall_Caps">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/smallcaps.png</normaloff>:/images/toolbar/smallcaps.png</iconset>
+   </property>
+   <property name="text">
+    <string>Small Caps</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+M</string>
+   </property>
+  </action>
+  <action name="actionEmphatize">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/emphatize.png</normaloff>:/images/toolbar/emphatize.png</iconset>
+   </property>
+   <property name="text">
+    <string>Emphatize</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionLeft_Align">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/leftalign.png</normaloff>:/images/toolbar/leftalign.png</iconset>
+   </property>
+   <property name="text">
+    <string>Left Align</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Left</string>
+   </property>
+  </action>
+  <action name="actionCenter_Align">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/centeralign.png</normaloff>:/images/toolbar/centeralign.png</iconset>
+   </property>
+   <property name="text">
+    <string>Center Align</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Down, Ctrl+Up</string>
+   </property>
+  </action>
+  <action name="actionRight_Align">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/rightalign.png</normaloff>:/images/toolbar/rightalign.png</iconset>
+   </property>
+   <property name="text">
+    <string>Right Align</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Right</string>
+   </property>
+  </action>
+  <action name="actionJustify">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/justify.png</normaloff>:/images/toolbar/justify.png</iconset>
+   </property>
+   <property name="text">
+    <string>Justify</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+J</string>
+   </property>
+  </action>
+  <action name="actionItemize_List">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/itemize.png</normaloff>:/images/toolbar/itemize.png</iconset>
+   </property>
+   <property name="text">
+    <string>Itemize List</string>
+   </property>
+  </action>
+  <action name="actionEnumerate_List">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/enumerate.png</normaloff>:/images/toolbar/enumerate.png</iconset>
+   </property>
+   <property name="text">
+    <string>Enumerate List</string>
+   </property>
+  </action>
+  <action name="actionDocument_Preamble">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Document Preamble...</string>
+   </property>
+  </action>
+  <action name="actionCompiler_Settings">
+   <property name="text">
+    <string>Compiler Settings...</string>
+   </property>
+  </action>
+  <action name="actionChapter">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Chapter...</string>
+   </property>
+   <property name="toolTip">
+    <string>Add a new chapter</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+1</string>
+   </property>
+  </action>
+  <action name="actionSection">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Section...</string>
+   </property>
+   <property name="toolTip">
+    <string>Add a new section</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+2</string>
+   </property>
+  </action>
+  <action name="actionSub_Section">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Sub Section...</string>
+   </property>
+   <property name="toolTip">
+    <string>Add a new sub section</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+3</string>
+   </property>
+  </action>
+  <action name="actionSub_Sub_Section">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Sub Sub Section...</string>
+   </property>
+   <property name="toolTip">
+    <string>Add a new sub sub section</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+4</string>
+   </property>
+  </action>
+  <action name="actionPackage_Document">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Package Document...</string>
+   </property>
+  </action>
+  <action name="actionUnpackage_Document">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Unpackage Document...</string>
+   </property>
+  </action>
+  <action name="actionParagraph">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Paragraph...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+5</string>
+   </property>
+  </action>
+  <action name="actionTable_of_Contents">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Table of Contents</string>
+   </property>
+  </action>
+  <action name="actionAbout_Qt">
+   <property name="text">
+    <string>About Qt</string>
+   </property>
+  </action>
+  <action name="actionBibliography_Manager">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Bibliography Manager...</string>
+   </property>
+  </action>
+  <action name="actionBibliography">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Bibliography</string>
+   </property>
+  </action>
+  <action name="actionDictionary_Settings">
+   <property name="text">
+    <string>Dictionary Settings...</string>
+   </property>
+  </action>
+  <action name="actionGoal">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/goal.png</normaloff>:/images/menu/goal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Goal...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="actionDocument_Lock">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Document Lock...</string>
+   </property>
+  </action>
+  <action name="actionTime_Machine">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Time Machine...</string>
+   </property>
+  </action>
+  <action name="actionE_mail">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>E-mail...</string>
+   </property>
+  </action>
+  <action name="actionShareSettings">
+   <property name="text">
+    <string>Share Settings...</string>
+   </property>
+  </action>
+  <action name="actionDropbox">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Dropbox...</string>
+   </property>
+  </action>
+  <action name="actionCode_Asset">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/codeasset.png</normaloff>:/images/menu/codeasset.png</iconset>
+   </property>
+   <property name="text">
+    <string>Code Asset...</string>
+   </property>
+  </action>
+  <action name="actionSmartKeys">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>SmartKeys...</string>
+   </property>
+  </action>
+  <action name="actionTheme_Settings">
+   <property name="text">
+    <string>Theme Settings...</string>
+   </property>
+  </action>
+  <action name="actionMinimize_window">
+   <property name="text">
+    <string>Minimize</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+M</string>
+   </property>
+  </action>
+  <action name="actionFull_Screen">
+   <property name="text">
+    <string>Full Screen</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+Shift+F</string>
+   </property>
+  </action>
+  <action name="actionHide_Primary_Toolbar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Hide Primary Toolbar</string>
+   </property>
+  </action>
+  <action name="actionHide_Secondary_Toolbar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Hide Secondary Toolbar</string>
+   </property>
+  </action>
+  <action name="actionHide_Document_Structure_List">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Hide Document Structure List</string>
+   </property>
+  </action>
+  <action name="actionMaximize">
+   <property name="text">
+    <string>Maximize</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+M</string>
+   </property>
+  </action>
+  <action name="actionMinimize_Screen">
+   <property name="text">
+    <string>Minimize Screen</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+Shift+M</string>
+   </property>
+  </action>
+  <action name="actionShow_LaTeX_Code">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/tex.png</normaloff>:/images/toolbar/tex.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show LaTeX Code...</string>
+   </property>
+  </action>
+  <action name="actionTime_Machine_Settings">
+   <property name="text">
+    <string>Time Machine Settings...</string>
+   </property>
+  </action>
+  <action name="actionList_of_Figures">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>List of Figures</string>
+   </property>
+  </action>
+  <action name="actionList_of_Tables">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>List of Tables</string>
+   </property>
+  </action>
+  <action name="actionCite">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/comment.png</normaloff>:/images/menu/comment.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cite</string>
+   </property>
+  </action>
+  <action name="actionLaTeX_Office_on_the_Web">
+   <property name="text">
+    <string>LaTeX Office on the &amp;Web</string>
+   </property>
+  </action>
+  <action name="actionCopy_Protect">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Copy Protect</string>
+   </property>
+  </action>
+  <action name="actionReference">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/reference.png</normaloff>:/images/toolbar/reference.png</iconset>
+   </property>
+   <property name="text">
+    <string>Reference</string>
+   </property>
+  </action>
+  <action name="actionFonts">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/fonts.png</normaloff>:/images/menu/fonts.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fonts...</string>
+   </property>
+  </action>
+  <action name="actionTextColor">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/toolbar/foreground.png</normaloff>:/images/toolbar/foreground.png</iconset>
+   </property>
+   <property name="text">
+    <string>TextColor</string>
+   </property>
+  </action>
+  <action name="actionSave_As_PDF">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/pdf.png</normaloff>:/images/menu/pdf.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save As PDF...</string>
+   </property>
+  </action>
+  <action name="actionSmartRemote">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>SmartRemote...</string>
+   </property>
+  </action>
+  <action name="action_View_Show">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/menu/slideshow.png</normaloff>:/images/menu/slideshow.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;View Show...</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

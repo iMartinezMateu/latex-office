@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="document">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="latex" type="xs:string"/>
+      <xs:element name="bibliography" type="xs:string"/>
+      <xs:element name="tableOfContents" type="xs:string"/>
+      <xs:element name="listOfFigures" type="xs:string"/>
+      <xs:element name="listOfTables" type="xs:string"/>
+
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>
+
